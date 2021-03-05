@@ -1,0 +1,86 @@
+<?xml version="1.0" encoding="UTF-8"?><project name="Progetto Salotto" company="Salotto Inc." webLink="http://" view-date="2021-02-25" view-index="0" gantt-divider-location="432" resource-divider-location="300" version="3.0.3002" locale="it_IT">
+    <description/>
+    <view zooming-state="default:2" id="gantt-chart">
+        <field id="tpd3" name="Nome" width="206" order="0"/>
+        <field id="tpd4" name="Data dinizio" width="104" order="1"/>
+        <field id="tpd5" name="Data di fine" width="103" order="2"/>
+        <option id="color.recent">
+            <![CDATA[#66ffff #009900 #ffcc66 #000000 #ffcc33]]>
+        </option>
+    </view>
+    <view id="resource-table">
+        <field id="0" name="Nome" width="210" order="0"/>
+        <field id="1" name="Ruolo predefinito" width="86" order="1"/>
+    </view>
+    <!-- -->
+    <calendars>
+        <day-types>
+            <day-type id="0"/>
+            <day-type id="1"/>
+            <default-week id="1" name="default" sun="1" mon="0" tue="0" wed="0" thu="0" fri="0" sat="1"/>
+            <only-show-weekends value="true"/>
+            <overriden-day-types/>
+            <days/>
+        </day-types>
+    </calendars>
+    <tasks empty-milestones="true">
+        <taskproperties>
+            <taskproperty id="tpd0" name="type" type="default" valuetype="icon"/>
+            <taskproperty id="tpd1" name="priority" type="default" valuetype="icon"/>
+            <taskproperty id="tpd2" name="info" type="default" valuetype="icon"/>
+            <taskproperty id="tpd3" name="name" type="default" valuetype="text"/>
+            <taskproperty id="tpd4" name="begindate" type="default" valuetype="date"/>
+            <taskproperty id="tpd5" name="enddate" type="default" valuetype="date"/>
+            <taskproperty id="tpd6" name="duration" type="default" valuetype="int"/>
+            <taskproperty id="tpd7" name="completion" type="default" valuetype="int"/>
+            <taskproperty id="tpd8" name="coordinator" type="default" valuetype="text"/>
+            <taskproperty id="tpd9" name="predecessorsr" type="default" valuetype="text"/>
+        </taskproperties>
+        <task id="0" name="Concezione" color="#000000" meeting="false" start="2021-03-02" duration="4" complete="0" thirdDate="2021-03-05" thirdDate-constraint="0" expand="true">
+            <depend id="128" type="2" difference="0" hardness="Strong"/>
+            <task id="17" name="Organizzazione preliminare" color="#ffcc66" meeting="false" start="2021-03-02" duration="4" complete="0" thirdDate="2021-03-05" thirdDate-constraint="0" expand="true"/>
+            <task id="63" name="Raccolta requisiti progetto" color="#ffcc66" meeting="false" start="2021-03-02" duration="1" complete="0" thirdDate="2021-02-26" thirdDate-constraint="0" expand="true">
+                <depend id="61" type="2" difference="0" hardness="Strong"/>
+            </task>
+            <task id="61" name="Valutazione idoneità" color="#ffcc66" meeting="false" start="2021-03-03" duration="1" complete="0" thirdDate="2021-02-26" thirdDate-constraint="0" expand="true">
+                <depend id="45" type="2" difference="0" hardness="Strong"/>
+            </task>
+            <task id="45" name="Scelta del gioco da sviluppare" color="#ffcc66" meeting="false" start="2021-03-04" duration="1" complete="0" thirdDate="2021-02-26" thirdDate-constraint="0" expand="true">
+                <depend id="81" type="2" difference="0" hardness="Strong"/>
+            </task>
+            <task id="81" name="Scelta del metodo di sviluppo (app o sito...)" color="#ffcc66" meeting="false" start="2021-03-05" duration="1" complete="0" thirdDate="2021-02-26" thirdDate-constraint="0" expand="true"/>
+        </task>
+        <task id="128" name="Report concezione" color="#009900" meeting="false" start="2021-03-06" duration="1" complete="0" thirdDate="2021-02-25" thirdDate-constraint="0" expand="true">
+            <depend id="33" type="2" difference="0" hardness="Strong"/>
+        </task>
+        <task id="33" name="Definizione" meeting="false" start="2021-03-08" duration="5" complete="0" expand="true">
+            <depend id="1" type="2" difference="0" hardness="Strong"/>
+            <task id="34" name="Definizione e assegnazione ruoli" color="#8cb6ce" meeting="false" start="2021-03-08" duration="1" complete="0" thirdDate="2021-03-01" thirdDate-constraint="0" expand="true">
+                <depend id="113" type="2" difference="0" hardness="Strong"/>
+                <depend id="118" type="2" difference="0" hardness="Strong"/>
+            </task>
+            <task id="67" name="Metodi di comunicazione ed interazione tra i ruoli" color="#8cb6ce" meeting="false" start="2021-03-08" duration="1" complete="0" thirdDate="2021-03-01" thirdDate-constraint="0" expand="true">
+                <depend id="113" type="2" difference="0" hardness="Strong"/>
+                <depend id="118" type="2" difference="0" hardness="Strong"/>
+            </task>
+            <task id="71" name="Risorse e ambienti di sviluppo" color="#8cb6ce" meeting="false" start="2021-03-08" duration="1" complete="0" thirdDate="2021-03-01" thirdDate-constraint="0" expand="true">
+                <depend id="113" type="2" difference="0" hardness="Strong"/>
+                <depend id="118" type="2" difference="0" hardness="Strong"/>
+            </task>
+            <task id="113" name="Creazione prototipo Front-End" color="#8cb6ce" meeting="false" start="2021-03-09" duration="4" complete="0" thirdDate="2021-03-01" thirdDate-constraint="0" expand="true"/>
+            <task id="118" name="Creazione mappe e diagrammi Back-End" color="#8cb6ce" meeting="false" start="2021-03-09" duration="4" complete="0" thirdDate="2021-03-01" thirdDate-constraint="0" expand="true"/>
+        </task>
+        <task id="1" name="Report concezione" color="#009900" meeting="false" start="2021-03-13" duration="1" complete="0" thirdDate="2021-02-25" thirdDate-constraint="0" expand="true">
+            <depend id="99" type="2" difference="0" hardness="Strong"/>
+        </task>
+        <task id="99" name="Realizzazione" color="#000000" meeting="false" start="2021-03-15" duration="9" complete="0" thirdDate="2021-03-08" thirdDate-constraint="0" expand="true">
+            <task id="134" name="Costringere Vaccher a partecipare" color="#66ffff" meeting="false" start="2021-03-15" duration="9" complete="0" thirdDate="2021-03-14" thirdDate-constraint="0" expand="true"/>
+        </task>
+    </tasks>
+    <resources/>
+    <allocations/>
+    <vacations/>
+    <previous/>
+    <roles roleset-name="Default"/>
+    <roles roleset-name="SoftwareDevelopment"/>
+</project>
