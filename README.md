@@ -1,2 +1,2 @@
 # pasol-project
-Biutiful pasol progiect
+Biutiful pasol progiekt
