@@ -1,0 +1,21 @@
+INVESTIGAME
+	+ La storia è già definita
+	+ È di semplice sviluppo
+	- Potrebbe avere poca suddivisione dei compiti
+	- Vaccher vota contro
+	- Problema della conclusione
+
+IMAGZLE
+	+ È di semplice sviluppo
+	+ È già definito
+	+ Facile divisione dei compiti
+
+NOT NOT
+	+ Semplice
+	+ Divertente
+	- Forse troppo semplice
+
+GIOCO DELL'IMPICCATO
+	+ Semplice
+	- Poca divisione di compiti
+	
