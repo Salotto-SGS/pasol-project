@@ -1,9 +1,9 @@
 <?xml version="1.0" encoding="UTF-8"?><project name="Progetto Salotto" company="Salotto Inc." webLink="http://" view-date="2021-02-25" view-index="0" gantt-divider-location="432" resource-divider-location="300" version="3.0.3002" locale="it_IT">
     <description/>
     <view zooming-state="default:2" id="gantt-chart">
-        <field id="tpd3" name="Nome" width="206" order="0"/>
-        <field id="tpd4" name="Data dinizio" width="104" order="1"/>
-        <field id="tpd5" name="Data di fine" width="103" order="2"/>
+        <field id="tpd3" name="Nome" width="211" order="0"/>
+        <field id="tpd4" name="Data dinizio" width="109" order="1"/>
+        <field id="tpd5" name="Data di fine" width="108" order="2"/>
         <option id="color.recent">
             <![CDATA[#66ffff #009900 #ffcc66 #000000 #ffcc33]]>
         </option>
@@ -55,6 +55,10 @@
         </task>
         <task id="33" name="Definizione" meeting="false" start="2021-03-08" duration="5" complete="0" expand="true">
             <depend id="1" type="2" difference="0" hardness="Strong"/>
+            <task id="138" name="Sviluppo UX" color="#8cb6ce" meeting="false" start="2021-03-08" duration="1" complete="0" thirdDate="2021-03-01" thirdDate-constraint="0" expand="true">
+                <depend id="113" type="2" difference="0" hardness="Strong"/>
+                <depend id="118" type="2" difference="0" hardness="Strong"/>
+            </task>
             <task id="34" name="Definizione e assegnazione ruoli" color="#8cb6ce" meeting="false" start="2021-03-08" duration="1" complete="0" thirdDate="2021-03-01" thirdDate-constraint="0" expand="true">
                 <depend id="113" type="2" difference="0" hardness="Strong"/>
                 <depend id="118" type="2" difference="0" hardness="Strong"/>
