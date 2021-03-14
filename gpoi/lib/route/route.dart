@@ -1,6 +1,6 @@
 import 'package:flutter/material.dart';
 import 'package:gpoi/views/allLevels.dart';
-import 'package:gpoi/views/level.dart';
+// import 'package:gpoi/views/level.dart';
 
 class RouteGenerator {
   static Route<dynamic> generateRoute(RouteSettings settings) {
@@ -10,8 +10,8 @@ class RouteGenerator {
     switch (settings.name) {
       case '/AllLevels':
         return MaterialPageRoute(builder: (_) => AllLevelsPage());
-      case '/Level':
-        return MaterialPageRoute(builder: (_) => LevelPage());
+      // case '/Level':
+      // return MaterialPageRoute(builder: (_) => LevelPage());
       default:
         return _errorRoute();
     }
