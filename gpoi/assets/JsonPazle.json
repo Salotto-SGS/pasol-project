@@ -1,0 +1,181 @@
+[{
+        "id": 1,
+        "image": null,
+        "suggestion": "Un frutto...",
+        "difficult": 0,
+        "correctAnswer": "Banana",
+        "backgroundColor": "F56734",
+        "congratulations": "Questa era facile, spero per te che non abbia chiesto l’aiuto da casa...",
+        "wrongAnswer": [{
+                "userAnswer": "giallo",
+                "tip": "Cominciamo bene… Quello è il colore non il frutto"
+            },
+            {
+                "userAnswer": "mela",
+                "tip": "Tu eri quello bravo alla scuola materna eh..."
+            }
+        ]
+    },
+    {
+        "id": 2,
+        "image": null,
+        "suggestion": "10",
+        "difficult": 0,
+        "correctAnswer": "1",
+        "backgroundColor": "76b7c6",
+        "congratulations": "Gli anni a fare circuiti logici sono serviti a qualcosa...",
+        "wrongAnswer": [{
+                "userAnswer": "Xor",
+                "tip": "Si è lei ma non vogliamo il nome della porta"
+            },
+            {
+                "userAnswer": "Porta logica",
+                "tip": "Si, quello è P A L E S E H"
+            },
+            {
+                "userAnswer": "And",
+                "tip": "Non solo non è ciò che vogliamo ma è anche la porta sbagliata"
+            },
+            {
+                "userAnswer": "or",
+                "tip": "Risposte come questa infliggono dolore fisico a Massaro"
+            },
+            {
+                "userAnswer": "not",
+                "tip": "Negami questa risposta: ‘SI"
+            }
+        ]
+    },
+    {
+        "id": 3,
+        "image": null,
+        "suggestion": "Vai Flaviè...",
+        "difficult": 0,
+        "correctAnswer": "Mandala",
+        "backgroundColor": "e55959",
+        "congratulations": "Se cerchi un modo per rilassarti colorare dei mandala è una buona opzione",
+        "wrongAnswer": [{
+                "userAnswer": "Mannala",
+                "tip": "ascolti buona musica ma non è questa la risposta, concentrati sull’immagine"
+            },
+            {
+                "userAnswer": "disegno",
+                "tip": "più nello specifico..."
+            },
+            {
+                "userAnswer": "Amendola",
+                "tip": "I see you are a man of G as well"
+            },
+            {
+                "userAnswer": "Madman",
+                "tip": ""
+            },
+            {
+                "userAnswer": "Gemitaiz",
+                "tip": ""
+            }
+        ]
+    },
+    {
+        "id": 4,
+        "image": null,
+        "suggestion": "Run the world",
+        "difficult": 0,
+        "correctAnswer": "Acacia dealbata",
+        "backgroundColor": "9440f5",
+        "congratulations": "Sei un passo più vicino alla laurea in biologia",
+        "wrongAnswer": [{
+                "userAnswer": "Mimosa ",
+                "tip": "Esatto, ma come la chiamerebbe Mendel?"
+            },
+            {
+                "userAnswer": "Festa della donna",
+                "tip": "Cosa si regala alle donne in questa giornata?"
+            }
+        ]
+    },
+    {
+        "id": 5,
+        "image": null,
+        "suggestion": "Un luogo",
+        "difficult": 0,
+        "correctAnswer": "Marienplatz",
+        "backgroundColor": "f299ee",
+        "congratulations": "Le cose sono due, o sei un membro della 5IC oppure sei bravo in geografia, in entrambi i casi… Complimenti!",
+        "wrongAnswer": [{
+                "userAnswer": "Sagrada familia",
+                "tip": "Sicuro di vederci bene?"
+            },
+            {
+                "userAnswer": "Germania",
+                "tip": "Un po’ troppo generale non credi?"
+            },
+            {
+                "userAnswer": "Monaco",
+                "tip": "Si quella è la città, ma il posto?"
+            }
+        ]
+    },
+    {
+        "id": 6,
+        "image": null,
+        "suggestion": "Una divisa",
+        "difficult": 0,
+        "correctAnswer": "Guardia svizzera",
+        "backgroundColor": "e73626",
+        "congratulations": "Se non sei Carlo Mavaracchio chiudi questa applicazione",
+        "wrongAnswer": [{
+                "userAnswer": "Cavaliere",
+                "tip": "AHAHAHAHAHAH no."
+            },
+            {
+                "userAnswer": "Pagliaccio",
+                "tip": "Effettivamente ci assomiglia..."
+            }
+        ]
+    },
+    {
+        "id": 7,
+        "image": null,
+        "suggestion": "Una pianta",
+        "difficult": 0,
+        "correctAnswer": "Cituta",
+        "backgroundColor": "aec11c",
+        "congratulations": "Socrate accettò l’ingiusta condanna e ne bevve un infuso, complimenti!",
+        "wrongAnswer": [{
+                "userAnswer": "Fiorellini",
+                "tip": "Si beh, non è sbagliato..."
+            },
+            {
+                "userAnswer": "Erbaccia",
+                "tip": "Si ma il nomee"
+            }
+        ]
+    },
+    {
+        "id": 8,
+        "image": null,
+        "suggestion": "Per i piloti",
+        "difficult": 0,
+        "correctAnswer": "Differenziale",
+        "backgroundColor": "947303",
+        "congratulations": "Si vede che sei tra quelli che si sporcano le mani di grasso",
+        "wrongAnswer": [{
+                "userAnswer": "ingranaggio",
+                "tip": "Si beh, non è sbagliato… Ma più precisamente?"
+            },
+            {
+                "userAnswer": "ingranaggi",
+                "tip": "Si beh, non è sbagliato… Ma più precisamente?"
+            },
+            {
+                "userAnswer": "Frizione",
+                "tip": "Non proprio, è un altro componente"
+            },
+            {
+                "userAnswer": "Reattore",
+                "tip": "Pilota non è solo quello dell’aereo"
+            }
+        ]
+    }
+]
