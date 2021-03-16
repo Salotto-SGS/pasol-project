@@ -1,11 +1,11 @@
-<?xml version="1.0" encoding="UTF-8"?><project name="Progetto Salotto" company="Salotto Inc." webLink="http://" view-date="2021-02-28" view-index="0" gantt-divider-location="432" resource-divider-location="300" version="3.0.3002" locale="it_IT">
+<?xml version="1.0" encoding="UTF-8"?><project name="Progetto Salotto" company="Salotto Inc." webLink="http://" view-date="2021-03-01" view-index="0" gantt-divider-location="432" resource-divider-location="300" version="3.0.3000" locale="it_IT">
     <description/>
     <view zooming-state="default:2" id="gantt-chart">
         <field id="tpd3" name="Nome" width="282" order="0"/>
         <field id="tpd4" name="Data dinizio" width="38" order="1"/>
         <field id="tpd5" name="Data di fine" width="108" order="2"/>
         <option id="color.recent">
-            <![CDATA[#66ffff #009900 #ffcc66 #000000 #ffcc33]]>
+            <![CDATA[#009900 #66ffff #99ccff #f4f4f4 #ffcc66 #ff6600 #000000 #ffcc33]]>
         </option>
     </view>
     <view id="resource-table">
@@ -55,29 +55,29 @@
         </task>
         <task id="33" name="Definizione" meeting="false" start="2021-03-08" duration="5" complete="0" expand="true">
             <depend id="1" type="2" difference="0" hardness="Strong"/>
-            <task id="138" name="Sviluppo UX" color="#8cb6ce" meeting="false" start="2021-03-08" duration="1" complete="0" thirdDate="2021-03-01" thirdDate-constraint="0" expand="true">
+            <task id="138" name="Sviluppo UX" color="#99ccff" meeting="false" start="2021-03-08" duration="1" complete="0" thirdDate="2021-03-01" thirdDate-constraint="0" expand="true">
                 <depend id="113" type="2" difference="0" hardness="Strong"/>
                 <depend id="118" type="2" difference="0" hardness="Strong"/>
                 <depend id="143" type="2" difference="0" hardness="Strong"/>
             </task>
-            <task id="67" name="Metodi di comunicazione ed interazione tra i ruoli" color="#8cb6ce" meeting="false" start="2021-03-08" duration="1" complete="0" thirdDate="2021-03-01" thirdDate-constraint="0" expand="true">
+            <task id="67" name="Metodi di comunicazione ed interazione tra i ruoli" color="#99ccff" meeting="false" start="2021-03-08" duration="1" complete="0" thirdDate="2021-03-01" thirdDate-constraint="0" expand="true">
                 <depend id="113" type="2" difference="0" hardness="Strong"/>
                 <depend id="118" type="2" difference="0" hardness="Strong"/>
                 <depend id="143" type="2" difference="0" hardness="Strong"/>
             </task>
-            <task id="34" name="Definizione e assegnazione ruoli" color="#8cb6ce" meeting="false" start="2021-03-08" duration="1" complete="0" thirdDate="2021-03-01" thirdDate-constraint="0" expand="true">
+            <task id="34" name="Definizione e assegnazione ruoli" color="#99ccff" meeting="false" start="2021-03-08" duration="1" complete="0" thirdDate="2021-03-01" thirdDate-constraint="0" expand="true">
                 <depend id="113" type="2" difference="0" hardness="Strong"/>
                 <depend id="118" type="2" difference="0" hardness="Strong"/>
                 <depend id="143" type="2" difference="0" hardness="Strong"/>
             </task>
-            <task id="71" name="Risorse e ambienti di sviluppo" color="#8cb6ce" meeting="false" start="2021-03-08" duration="1" complete="0" thirdDate="2021-03-01" thirdDate-constraint="0" expand="true">
+            <task id="71" name="Risorse e ambienti di sviluppo" color="#99ccff" meeting="false" start="2021-03-08" duration="1" complete="0" thirdDate="2021-03-01" thirdDate-constraint="0" expand="true">
                 <depend id="113" type="2" difference="0" hardness="Strong"/>
                 <depend id="118" type="2" difference="0" hardness="Strong"/>
                 <depend id="143" type="2" difference="0" hardness="Strong"/>
             </task>
-            <task id="113" name="Creazione prototipo Front-End" color="#8cb6ce" meeting="false" start="2021-03-09" duration="4" complete="0" thirdDate="2021-03-01" thirdDate-constraint="0" expand="true"/>
-            <task id="118" name="Creazione mappe e diagrammi Back-End" color="#8cb6ce" meeting="false" start="2021-03-09" duration="4" complete="0" thirdDate="2021-03-01" thirdDate-constraint="0" expand="true"/>
-            <task id="143" name="Popolazione pseudo-database" color="#8cb6ce" meeting="false" start="2021-03-09" duration="4" complete="0" thirdDate="2021-03-01" thirdDate-constraint="0" expand="true">
+            <task id="113" name="Creazione prototipo Front-End" color="#99ccff" meeting="false" start="2021-03-09" duration="4" complete="0" thirdDate="2021-03-01" thirdDate-constraint="0" expand="true"/>
+            <task id="118" name="Creazione mappe e diagrammi Back-End" color="#99ccff" meeting="false" start="2021-03-09" duration="4" complete="0" thirdDate="2021-03-01" thirdDate-constraint="0" expand="true"/>
+            <task id="143" name="Definizione file .json per livelli" color="#99ccff" meeting="false" start="2021-03-09" duration="4" complete="0" thirdDate="2021-03-01" thirdDate-constraint="0" expand="true">
                 <notes>
                     <![CDATA[Pensare alle varie domande, titoli, risposte, immagini e suggerimenti di ciascun livello senza però popolare un vero e proprio database]]>
                 </notes>
@@ -86,15 +86,16 @@
         <task id="1" name="Report concezione" color="#009900" meeting="false" start="2021-03-13" duration="1" complete="0" thirdDate="2021-02-25" thirdDate-constraint="0" expand="true">
             <depend id="99" type="2" difference="0" hardness="Strong"/>
         </task>
-        <task id="99" name="Realizzazione" color="#000000" meeting="false" start="2021-03-15" duration="8" complete="0" thirdDate="2021-03-08" thirdDate-constraint="0" expand="true">
+        <task id="99" name="Realizzazione" color="#000000" meeting="false" start="2021-03-15" duration="7" complete="0" thirdDate="2021-03-08" thirdDate-constraint="0" expand="true">
+            <depend id="247" type="2" difference="0" hardness="Strong"/>
+            <task id="147" name="Sviluppo Front-End" color="#66ffff" meeting="false" start="2021-03-15" duration="7" complete="0" thirdDate="2021-03-14" thirdDate-constraint="0" expand="true"/>
+            <task id="150" name="Sviluppo Back-End" color="#66ffff" meeting="false" start="2021-03-15" duration="7" complete="0" thirdDate="2021-03-14" thirdDate-constraint="0" expand="true"/>
+            <task id="134" name="Popolazione del file .json dei livelli" color="#66ffff" meeting="false" start="2021-03-15" duration="7" complete="0" thirdDate="2021-03-14" thirdDate-constraint="0" expand="true"/>
+        </task>
+        <task id="247" name="Report realizzazione" color="#009900" meeting="false" start="2021-03-22" duration="1" complete="0" thirdDate="2021-02-25" thirdDate-constraint="0" expand="true">
             <depend id="154" type="2" difference="0" hardness="Strong"/>
-            <task id="147" name="Sviluppo Front-End" color="#66ffff" meeting="false" start="2021-03-15" duration="8" complete="0" thirdDate="2021-03-14" thirdDate-constraint="0" expand="true"/>
-            <task id="150" name="Sviluppo Back-End" color="#66ffff" meeting="false" start="2021-03-15" duration="8" complete="0" thirdDate="2021-03-14" thirdDate-constraint="0" expand="true"/>
-            <task id="134" name="Popolazione del database dei livelli" color="#66ffff" meeting="false" start="2021-03-17" duration="6" complete="0" thirdDate="2021-03-14" thirdDate-constraint="0" expand="true"/>
         </task>
-        <task id="154" name="Chiusura" color="#000000" meeting="false" start="2021-03-23" duration="1" complete="0" thirdDate="2021-03-08" thirdDate-constraint="0" expand="true">
-            <task id="247" name="Copia_Report concezione" color="#009900" meeting="false" start="2021-03-23" duration="1" complete="0" thirdDate="2021-02-25" thirdDate-constraint="0" expand="true"/>
-        </task>
+        <task id="154" name="Chiusura" color="#ff6600" meeting="false" start="2021-03-23" duration="7" complete="0" thirdDate="2021-03-08" thirdDate-constraint="0" expand="true"/>
     </tasks>
     <resources/>
     <allocations/>
