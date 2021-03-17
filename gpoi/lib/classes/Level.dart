@@ -1,6 +1,6 @@
 class Level {
   int _id;
-  Null _image;
+  String _image;
   String _suggestion;
   int _difficult;
   String _correctAnswer;
@@ -10,7 +10,7 @@ class Level {
 
   Level(
       {int id,
-      Null image,
+      String image,
       String suggestion,
       int difficult,
       String correctAnswer,
@@ -29,7 +29,7 @@ class Level {
 
   int get id => _id;
   // set id(int id) => _id = id;
-  Null get image => _image;
+  String get image => _image;
   // set image(Null image) => _image = image;
   String get suggestion => _suggestion;
   // set suggestion(String suggestion) => _suggestion = suggestion;

@@ -17,6 +17,7 @@ class _LevelPageState extends State<LevelPage> {
   Level level;
   Color backgroundColor = new Color(0xffffffff);
   String title = "";
+  Image _levelImage;
 
   @override
   void initState() {
@@ -40,6 +41,7 @@ class _LevelPageState extends State<LevelPage> {
     setState(() {
       backgroundColor = hexToColor(level.backgroundColor);
       title = level.suggestion;
+      _levelImage = new Image.asset(level.image);
     });
   }
 
@@ -79,7 +81,7 @@ class _LevelPageState extends State<LevelPage> {
             Expanded(
               flex: 8,
               child: Container(
-                child: Image.asset('assets/images/banana.png'),
+                child: _levelImage,
               ),
             ),
             Expanded(

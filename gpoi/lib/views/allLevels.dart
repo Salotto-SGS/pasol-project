@@ -4,6 +4,7 @@ import 'package:flutter/material.dart';
 import 'package:gpoi/classes/Level.dart';
 import 'package:flutter/services.dart' show rootBundle;
 import 'package:gpoi/views/level.dart';
+import 'package:shared_preferences/shared_preferences.dart';
 
 class AllLevelsPage extends StatefulWidget {
   @override
@@ -13,11 +14,18 @@ class AllLevelsPage extends StatefulWidget {
 class _AllLevelsPageState extends State<AllLevelsPage> {
   // List<int> levels = [1, 2, 3, 4, 5, 6, 7, 8];
   List<Level> levels = [];
+  int _lastLevelNumber;
 
   @override
   void initState() {
     getJson();
+    getLastLevel();
     super.initState();
+  }
+
+  void getLastLevel() async {
+    SharedPreferences prefs = await SharedPreferences.getInstance();
+    this._lastLevelNumber = prefs.getInt("lastLevelNumber") ?? 1;
   }
 
   void getJson() async {
@@ -26,7 +34,24 @@ class _AllLevelsPageState extends State<AllLevelsPage> {
     for (var i = 0; i < jsonFile.length; i++)
       levels.add(Level.fromJson(jsonFile[i]));
     setState(() {});
-    // print(levels);
+  }
+
+  Image getImage(id, difficult) {
+    if (id < _lastLevelNumber) {
+      return new Image.asset("assets/images/divano_blu.png");
+    } else if (id == _lastLevelNumber) {
+      if (difficult == 0) {
+        return new Image.asset("assets/images/divano_verde.png");
+      }
+      if (difficult == 1) {
+        return new Image.asset("assets/images/divano_giallo.png");
+      }
+      if (difficult == 2) {
+        return new Image.asset("assets/images/divano_rosso.png");
+      }
+    } else if (id > _lastLevelNumber) {
+      return new Image.asset("assets/images/divano_grigio.png");
+    }
   }
 
   @override
@@ -55,8 +80,8 @@ class _AllLevelsPageState extends State<AllLevelsPage> {
                                     Container(
                                       height: 35,
                                       width: 65,
-                                      child: new Image.asset(
-                                          "assets/images/divano_blu.png"),
+                                      child: getImage(levels[index * 4].id,
+                                          levels[index * 4].difficult),
                                     ),
                                     Text(
                                       levels[index * 4].id.toString(),
@@ -67,13 +92,18 @@ class _AllLevelsPageState extends State<AllLevelsPage> {
                                     ),
                                   ],
                                 ),
-                                onTap: () => Navigator.push(
-                                  context,
-                                  MaterialPageRoute(
-                                    builder: (context) =>
-                                        LevelPage(levels[index * 4].id),
-                                  ),
-                                ),
+                                onTap: () {
+                                  if (levels[index * 4].id <=
+                                      _lastLevelNumber) {
+                                    Navigator.push(
+                                      context,
+                                      MaterialPageRoute(
+                                        builder: (context) =>
+                                            LevelPage(levels[index * 4].id),
+                                      ),
+                                    );
+                                  }
+                                },
                               )
                             : Container(
                                 height: 35,
@@ -87,8 +117,8 @@ class _AllLevelsPageState extends State<AllLevelsPage> {
                                     Container(
                                       height: 35,
                                       width: 65,
-                                      child: new Image.asset(
-                                          "assets/images/divano_rosso.png"),
+                                      child: getImage(levels[index * 4 + 1].id,
+                                          levels[index * 4 + 1].difficult),
                                     ),
                                     Text(
                                       levels[index * 4 + 1].id.toString(),
@@ -99,13 +129,18 @@ class _AllLevelsPageState extends State<AllLevelsPage> {
                                     ),
                                   ],
                                 ),
-                                onTap: () => Navigator.push(
-                                  context,
-                                  MaterialPageRoute(
-                                    builder: (context) =>
-                                        LevelPage(levels[index * 4 + 1].id),
-                                  ),
-                                ),
+                                onTap: () {
+                                  if (levels[index * 4 + 1].id <=
+                                      _lastLevelNumber) {
+                                    Navigator.push(
+                                      context,
+                                      MaterialPageRoute(
+                                        builder: (context) =>
+                                            LevelPage(levels[index * 4 + 1].id),
+                                      ),
+                                    );
+                                  }
+                                },
                               )
                             : Container(
                                 height: 35,
@@ -119,8 +154,8 @@ class _AllLevelsPageState extends State<AllLevelsPage> {
                                     Container(
                                       height: 35,
                                       width: 65,
-                                      child: new Image.asset(
-                                          "assets/images/divano_verde.png"),
+                                      child: getImage(levels[index * 4 + 2].id,
+                                          levels[index * 4 + 2].difficult),
                                     ),
                                     Text(
                                       levels[index * 4 + 2].id.toString(),
@@ -131,13 +166,18 @@ class _AllLevelsPageState extends State<AllLevelsPage> {
                                     ),
                                   ],
                                 ),
-                                onTap: () => Navigator.push(
-                                  context,
-                                  MaterialPageRoute(
-                                    builder: (context) =>
-                                        LevelPage(levels[index * 4 + 2].id),
-                                  ),
-                                ),
+                                onTap: () {
+                                  if (levels[index * 4 + 2].id <=
+                                      _lastLevelNumber) {
+                                    Navigator.push(
+                                      context,
+                                      MaterialPageRoute(
+                                        builder: (context) =>
+                                            LevelPage(levels[index * 4 + 2].id),
+                                      ),
+                                    );
+                                  }
+                                },
                               )
                             : Container(
                                 height: 35,
@@ -151,8 +191,8 @@ class _AllLevelsPageState extends State<AllLevelsPage> {
                                     Container(
                                       height: 35,
                                       width: 65,
-                                      child: new Image.asset(
-                                          "assets/images/divano_giallo.png"),
+                                      child: getImage(levels[index * 4 + 3].id,
+                                          levels[index * 4 + 3].difficult),
                                     ),
                                     Text(
                                       levels[index * 4 + 3].id.toString(),
@@ -163,13 +203,18 @@ class _AllLevelsPageState extends State<AllLevelsPage> {
                                     ),
                                   ],
                                 ),
-                                onTap: () => Navigator.push(
-                                  context,
-                                  MaterialPageRoute(
-                                    builder: (context) =>
-                                        LevelPage(levels[index * 4 + 3].id),
-                                  ),
-                                ),
+                                onTap: () {
+                                  if (levels[index * 4 + 3].id <=
+                                      _lastLevelNumber) {
+                                    Navigator.push(
+                                      context,
+                                      MaterialPageRoute(
+                                        builder: (context) =>
+                                            LevelPage(levels[index * 4 + 3].id),
+                                      ),
+                                    );
+                                  }
+                                },
                               )
                             : Container(
                                 height: 35,
