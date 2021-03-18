@@ -42,10 +42,11 @@ class _LevelPageState extends State<LevelPage> {
         showModal();
       }
     }
-    _modalTitle = "Risposta errata";
+
     for (var i = 0; i < level.wrongAnswer.length; i++) {
       if (level.wrongAnswer[i].userAnswer.toLowerCase() ==
           text.text.toLowerCase()) {
+        _modalTitle = "Risposta errata";
         _modalBody = level.wrongAnswer[i].tip;
         showModal();
         break;
@@ -62,16 +63,16 @@ class _LevelPageState extends State<LevelPage> {
             title: Text(_modalTitle),
             content: Text(_modalBody),
             actions: [
-              //TODO: mandare utente quando ha indovinato la parola nella pagina di tutti i livelli
               TextButton(
                 child: Text("Ho capito!"),
                 onPressed: () async {
                   if (_modalTitle == "Risposta corretta") {
                     SharedPreferences prefs =
                         await SharedPreferences.getInstance();
-                    // prefs.setInt("lastLevelNumber") ?? 1;
+                    prefs.setInt("lastLevelNumber", level.id + 1);
                   }
                   Navigator.of(context).pop();
+                  Navigator.pushNamed(context, '/AllLevels');
                 },
               )
             ],

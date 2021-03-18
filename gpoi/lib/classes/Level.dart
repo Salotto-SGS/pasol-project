@@ -3,7 +3,7 @@ class Level {
   String _image;
   String _suggestion;
   int _difficult;
-  String _correctAnswer;
+  List<dynamic> _correctAnswer;
   String _congratulations;
   String _backgroundColor;
   List<WrongAnswer> _wrongAnswer;
@@ -13,7 +13,7 @@ class Level {
       String image,
       String suggestion,
       int difficult,
-      String correctAnswer,
+      List<dynamic> correctAnswer,
       String congratulations,
       String backgroundColor,
       List<WrongAnswer> wrongAnswer}) {
@@ -35,7 +35,7 @@ class Level {
   // set suggestion(String suggestion) => _suggestion = suggestion;
   int get difficult => _difficult;
   // set difficult(int difficult) => _difficult = difficult;
-  String get correctAnswer => _correctAnswer;
+  List<dynamic> get correctAnswer => _correctAnswer;
   // set correctAnswer(String correctAnswer) => _correctAnswer = correctAnswer;
   String get congratulations => _congratulations;
 

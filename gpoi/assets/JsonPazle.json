@@ -18,216 +18,805 @@
     },
     {
         "id": 2,
-        "image": null,
-        "suggestion": "10",
+        "image": "assets/images/java.png",
+        "suggestion": "Un linguaggio",
         "difficult": 0,
-        "correctAnswer": ["1"],
-        "backgroundColor": "76b7c6",
-        "congratulations": "Gli anni a fare circuiti logici sono serviti a qualcosa...",
+        "correctAnswer": ["Java"],
+        "backgroundColor": "22395A",
+        "congratulations": "GNIAAAAAAAAAAVAAA",
         "wrongAnswer": [{
-                "userAnswer": "xor",
-                "tip": "Si è lei ma non vogliamo il nome della porta"
+                "userAnswer": "Javascript",
+                "tip": "Mi sa che lo Zuccante ti piace così tanto che farai più di 5 anni"
             },
             {
-                "userAnswer": "porta logica",
-                "tip": "Si, quello è P A L E S E H"
+                "userAnswer": "Programmazione",
+                "tip": "Uno in particolare"
             },
             {
-                "userAnswer": "And",
-                "tip": "Non solo non è ciò che vogliamo ma è anche la porta sbagliata"
-            },
-            {
-                "userAnswer": "or",
-                "tip": "Risposte come questa infliggono dolore fisico a Massaro"
-            },
-            {
-                "userAnswer": "not",
-                "tip": "Negami questa risposta: ‘SI"
+                "userAnswer": "HTML",
+                "tip": "..."
             }
         ]
     },
     {
         "id": 3,
-        "image": null,
-        "suggestion": "Vai Flaviè...",
+        "image": "assets/images/solecuoreamore.png",
+        "suggestion": "Dammi 3 parole",
         "difficult": 0,
-        "correctAnswer": ["Mandala"],
-        "backgroundColor": "e55959",
-        "congratulations": "Se cerchi un modo per rilassarti colorare dei mandala è una buona opzione",
+        "correctAnswer": ["Daniele Vicari"],
+        "backgroundColor": "92CED9",
+        "congratulations": "Spero non sia stato un problema se ti ho chiesto 3 parole ma la risposta ne richiedeva 2",
         "wrongAnswer": [{
-                "userAnswer": "Mannala",
-                "tip": "ascolti buona musica ma non è questa la risposta, concentrati sull’immagine"
+                "userAnswer": "Sole ",
+                "tip": "Sì, è uno dei tre oggetti raffigurati..."
             },
             {
-                "userAnswer": "disegno",
-                "tip": "più nello specifico..."
+                "userAnswer": "Cuore",
+                "tip": "Sì, è uno dei tre oggetti raffigurati..."
             },
             {
-                "userAnswer": "Amendola",
-                "tip": "I see you are a man of G as well"
+                "userAnswer": "Amore",
+                "tip": "Sì, è uno dei tre oggetti raffigurati..."
             },
             {
-                "userAnswer": "Madman",
-                "tip": ""
-            },
-            {
-                "userAnswer": "Gemitaiz",
-                "tip": ""
+                "userAnswer": "Sole cuore amore",
+                "tip": "Magari non voglio solamente che tu mi descriva quello che c’è raffigurato..."
             }
         ]
     },
     {
         "id": 4,
-        "image": null,
-        "suggestion": "Run the world",
+        "image": "assets/images/rgbled.png",
+        "suggestion": "Un componente",
         "difficult": 0,
-        "correctAnswer": ["Acacia dealbata"],
-        "backgroundColor": "9440f5",
-        "congratulations": "Sei un passo più vicino alla laurea in biologia",
+        "correctAnswer": ["led RGB", "RGB"],
+        "backgroundColor": "0F71B7",
+        "congratulations": "L’hai capito dal numero di pin vero? ...vero?",
         "wrongAnswer": [{
-                "userAnswer": "Mimosa ",
-                "tip": "Esatto, ma come la chiamerebbe Mendel?"
+                "userAnswer": "led",
+                "tip": "Si… Ma più precisamente?"
             },
             {
-                "userAnswer": "Festa della donna",
-                "tip": "Cosa si regala alle donne in questa giornata?"
+                "userAnswer": "Lampadina",
+                "tip": "Tu devi essere l’esperto di elettronica"
+            },
+            {
+                "userAnswer": "Sensore",
+                "tip": "Mmmmh no, però si può usare assieme"
             }
         ]
     },
     {
         "id": 5,
-        "image": null,
-        "suggestion": "Un luogo",
+        "image": "assets/images/zuccante.png",
+        "suggestion": "Un inferno",
         "difficult": 0,
-        "correctAnswer": ["Marienplatz"],
-        "backgroundColor": "f299ee",
-        "congratulations": "Le cose sono due, o sei un membro della 5IC oppure sei bravo in geografia, in entrambi i casi… Complimenti!",
+        "correctAnswer": ["ITIS C. Zuccante", "Zuccante", "Carlo Zuccante", "ITIS Carlo Zuccante"],
+        "backgroundColor": "B8CC8B",
+        "congratulations": "Piaciuto il titolo? :)",
         "wrongAnswer": [{
-                "userAnswer": "Sagrada familia",
-                "tip": "Sicuro di vederci bene?"
+                "userAnswer": "Gritti",
+                "tip": "Cosa sei, masochista?"
             },
             {
-                "userAnswer": "Germania",
-                "tip": "Un po’ troppo generale non credi?"
-            },
-            {
-                "userAnswer": "Monaco",
-                "tip": "Si quella è la città, ma il posto?"
+                "userAnswer": "Bruno",
+                "tip": "Ci sei vicino"
             }
         ]
     },
     {
         "id": 6,
-        "image": null,
-        "suggestion": "Una divisa",
+        "image": "assets/images/darthvader.png",
+        "suggestion": "Sono tuo padre",
         "difficult": 0,
-        "correctAnswer": ["Guardia svizzera"],
-        "backgroundColor": "e73626",
-        "congratulations": "Se non sei Carlo Mavaracchio chiudi questa applicazione",
+        "correctAnswer": ["Dart Fener", "Darth Fener", "Darth Vader", "Lord Fener"],
+        "backgroundColor": "22395A",
+        "congratulations": "Che comunque poteva dirglielo in un momento migliore eh…",
         "wrongAnswer": [{
-                "userAnswer": "Cavaliere",
-                "tip": "AHAHAHAHAHAH no."
+                "userAnswer": "Luke Skywalker",
+                "tip": "Non proprio, chi è che pronuncia la frase del titolo?"
             },
             {
-                "userAnswer": "Pagliaccio",
-                "tip": "Effettivamente ci assomiglia..."
+                "userAnswer": "Han Solo ",
+                "tip": "Ma ti sembra?!"
             }
         ]
     },
     {
         "id": 7,
-        "image": null,
-        "suggestion": "Una pianta",
+        "image": "assets/images/discord.png",
+        "suggestion": "Un fedele alleato",
         "difficult": 0,
-        "correctAnswer": ["Cituta"],
-        "backgroundColor": "aec11c",
-        "congratulations": "Socrate accettò l’ingiusta condanna e ne bevve un infuso, complimenti!",
+        "correctAnswer": ["Discord"],
+        "backgroundColor": "AFB4B0",
+        "congratulations": "Certamente tu non hai mai toccato quella roba, figuriamoci",
         "wrongAnswer": [{
-                "userAnswer": "Fiorellini",
-                "tip": "Si beh, non è sbagliato..."
+                "userAnswer": "TeamSpeak",
+                "tip": "La concorrenza..."
             },
             {
-                "userAnswer": "Erbaccia",
-                "tip": "Si ma il nomee"
+                "userAnswer": "VR",
+                "tip": "Dove l’hai visto??"
             }
         ]
     },
     {
         "id": 8,
-        "image": null,
-        "suggestion": "Per i piloti",
+        "image": "assets/images/anubi.png",
+        "suggestion": "Una Divinità",
         "difficult": 0,
-        "correctAnswer": ["Differenziale"],
-        "backgroundColor": "947303",
-        "congratulations": "Si vede che sei tra quelli che si sporcano le mani di grasso",
+        "correctAnswer": ["Anubi"],
+        "backgroundColor": "E6E28B",
+        "congratulations": "Sono tutti dii ma di diverse categorie",
         "wrongAnswer": [{
-                "userAnswer": "ingranaggio",
-                "tip": "Si beh, non è sbagliato… Ma più precisamente?"
+                "userAnswer": "Cane",
+                "tip": "Si scherza, amici della postale"
             },
             {
-                "userAnswer": "ingranaggi",
-                "tip": "Si beh, non è sbagliato… Ma più precisamente?"
+                "userAnswer": "Mattone",
+                "tip": "Sei un vero paguro"
             },
             {
-                "userAnswer": "Frizione",
-                "tip": "Non proprio, è un altro componente"
-            },
-            {
-                "userAnswer": "Reattore",
-                "tip": "Pilota non è solo quello dell’aereo"
+                "userAnswer": "Sciacallo",
+                "tip": "Se sei riuscito ad indovinare l’animale e non la divinità egizia sei incredibile"
             }
         ]
     },
     {
         "id": 9,
-        "image": null,
-        "suggestion": "TODO",
+        "image": "assets/images/plutone.png",
+        "suggestion": "Ero un pianeta",
         "difficult": 0,
-        "correctAnswer": ["TODO"],
-        "backgroundColor": "947303",
-        "congratulations": "Si vede che sei tra quelli che si sporcano le mani di grasso",
+        "correctAnswer": ["Plutone"],
+        "backgroundColor": "00319E",
+        "congratulations": "Spero per te che l’abbia indovinata al primo tentativo",
         "wrongAnswer": [{
-                "userAnswer": "ingranaggio",
-                "tip": "Si beh, non è sbagliato… Ma più precisamente?"
+                "userAnswer": "Marte",
+                "tip": "Elon non sarebbe fiero di te"
             },
             {
-                "userAnswer": "ingranaggi",
-                "tip": "Si beh, non è sbagliato… Ma più precisamente?"
+                "userAnswer": "Terra",
+                "tip": "Certo che a volte mi stupisci con le tue risposte"
             },
             {
-                "userAnswer": "Frizione",
-                "tip": "Non proprio, è un altro componente"
+                "userAnswer": "Sole",
+                "tip": "AH...l’unico consiglio che ti posso dare è quello di disinstallare la app"
             },
             {
-                "userAnswer": "Reattore",
-                "tip": "Pilota non è solo quello dell’aereo"
+                "userAnswer": "Venere",
+                "tip": "Ma noooo dai"
+            },
+            {
+                "userAnswer": "Saturno",
+                "tip": "Si certo..."
+            },
+            {
+                "userAnswer": "Mercurio",
+                "tip": "Ma come ti vengono certe risposte?"
+            },
+            {
+                "userAnswer": "Giove",
+                "tip": "Vorrei conoscere il flusso di pensieri che ti ha portato a questa risposta"
+            },
+            {
+                "userAnswer": "Urano",
+                "tip": "Non ci siamo proprio"
+            },
+            {
+                "userAnswer": "Nettuno",
+                "tip": "Quello dopo..."
+            },
+            {
+                "userAnswer": "Luna",
+                "tip": "Quanto avevi in Scienze alle elementari?"
             }
         ]
     },
     {
         "id": 10,
-        "image": null,
-        "suggestion": "TODO",
+        "image": "assets/images/gandalf.png",
+        "suggestion": "Non puoi passare",
         "difficult": 0,
-        "correctAnswer": ["TODO"],
-        "backgroundColor": "947303",
-        "congratulations": "Si vede che sei tra quelli che si sporcano le mani di grasso",
+        "correctAnswer": ["Signore degli anelli"],
+        "backgroundColor": "BB9879",
+        "congratulations": "Se avessimo messo Gandalf sarebbe stato troppo facile…",
         "wrongAnswer": [{
-                "userAnswer": "ingranaggio",
-                "tip": "Si beh, non è sbagliato… Ma più precisamente?"
+                "userAnswer": "Bastone",
+                "tip": "Come fai a non conoscere questa celebre frase dai..."
             },
             {
-                "userAnswer": "ingranaggi",
-                "tip": "Si beh, non è sbagliato… Ma più precisamente?"
+                "userAnswer": "Gandalf",
+                "tip": "Non siamo tutti vecchi come lui però cerca di impegnarti un po di più dai"
             },
             {
-                "userAnswer": "Frizione",
-                "tip": "Non proprio, è un altro componente"
-            },
-            {
-                "userAnswer": "Reattore",
-                "tip": "Pilota non è solo quello dell’aereo"
+                "userAnswer": "Lo Hobbit",
+                "tip": "Fa parte anche di un’altra serie TV"
             }
         ]
+    },
+    {
+        "id": 11,
+        "image": "assets/images/vodka.png",
+        "suggestion": "Cyka blyat",
+        "difficult": 0,
+        "correctAnswer": ["Vodka"],
+        "backgroundColor": "FFFFFF",
+        "congratulations": "Si vede che sei tra quelli che si sporcano le mani di grasso",
+        "wrongAnswer": [{
+                "userAnswer": "Acqua",
+                "tip": "Un vero ruso no beve cuela cosa, fa rugine"
+            },
+            {
+                "userAnswer": "Bicchiere",
+                "tip": "E quello che c’è dentro?"
+            },
+            {
+                "userAnswer": "Russo",
+                "tip": "SI blyat però cosa bevo per dissetarmi?"
+            }
+        ]
+    },
+    {
+        "id": 12,
+        "image": "assets/images/netflix.png",
+        "suggestion": "Un altro episodio",
+        "difficult": 0,
+        "correctAnswer": ["Netflix"],
+        "backgroundColor": "D5392F",
+        "congratulations": "Paghi l’account oppure sei una sanguisuga e sfrutti un tuo conoscente?",
+        "wrongAnswer": [{
+                "userAnswer": "Serie TV",
+                "tip": "Esatto ma su che piattaforma più famosa lo guardi?"
+            },
+            {
+                "userAnswer": "Binge watching",
+                "tip": "Hai il C2? Comunque la risposta è più semplice di quello che pensi"
+            },
+            {
+                "userAnswer": "TV",
+                "tip": "Siamo nel 2021 esistono ancora persone che guardano la TV?”"
+            }
+        ]
+    },
+    {
+        "id": 13,
+        "image": "assets/images/icaro.png",
+        "suggestion": "Troppo in alto",
+        "difficult": 0,
+        "correctAnswer": ["Icaro"],
+        "backgroundColor": "AA58E7",
+        "congratulations": "Ah, quel pollo di Icaro...",
+        "wrongAnswer": [{
+                "userAnswer": "Ali",
+                "tip": "Sì ma chi le usava?"
+            },
+            {
+                "userAnswer": "Cera",
+                "tip": "Con della semplice cera non riesci a volare o no?"
+            }
+        ]
+    },
+    {
+        "id": 14,
+        "image": "assets/images/maryshelley.png",
+        "suggestion": "Una scrittrice",
+        "difficult": 1,
+        "correctAnswer": ["Mary Shelley"],
+        "backgroundColor": "007F6C",
+        "congratulations": "La prima a scrivere romanzi horror",
+        "wrongAnswer": [{
+            "userAnswer": "Frankenstein",
+            "tip": "Si quello lo vedo anch’io… Forse non mi riferisco al personaggio ma..."
+        }, {
+            "userAnswer": "Zombie",
+            "tip": "Ma vaaaaaaaaaaaa"
+        }, {
+            "userAnswer": "Zombi",
+            "tip": "Ma vaaaaaaaaaaaa"
+        }]
+    },
+    {
+        "id": 15,
+        "image": "assets/images/donquijote.png",
+        "suggestion": "Un personaggio",
+        "difficult": 1,
+        "correctAnswer": ["Don Quichotte", "Don Quijote", "Don Chisciotte", "Don Quijote de La Mancha"],
+        "backgroundColor": "F38B2D",
+        "congratulations": "Di conoscenza comune, ma avrai scritto il nome nel modo giusto?",
+        "wrongAnswer": [{
+            "userAnswer": "Antonio Banderas",
+            "tip": "Rosita… Mi sa che hai pensato al mulino sbagliato..."
+        }]
+    },
+    {
+        "id": 16,
+        "image": "assets/images/bobbymcferrin.png",
+        "suggestion": "Un cantante",
+        "difficult": 1,
+        "correctAnswer": ["Bobby McFerrin"],
+        "backgroundColor": "91D748",
+        "congratulations": "Sei caduto nella trappola oppure l’hai riconosciuto al primo colpo?",
+        "wrongAnswer": [{
+            "userAnswer": "Bob Marley",
+            "tip": "Aha! Sei caduto nella mia trappola! E se ti dicessi che quella canzone non è stata scritta da Bob Marley?"
+        }]
+    },
+    {
+        "id": 17,
+        "image": "assets/images/mimosa.png",
+        "suggestion": "Run the world",
+        "difficult": 1,
+        "correctAnswer": ["Acacia dealbata"],
+        "backgroundColor": "EFC4CD",
+        "congratulations": "Sei un passo più vicino alla laurea in biologia",
+        "wrongAnswer": [{
+            "userAnswer": "Mimosa",
+            "tip": "Esatto, ma come la chiamerebbe Mendel?"
+        }, {
+            "userAnswer": "Festa della donna",
+            "tip": "Cosa si regala alle donne in questa giornata?"
+        }]
+    },
+    {
+        "id": 18,
+        "image": "assets/images/spotify.png",
+        "suggestion": "Tutti lo crackano",
+        "difficult": 1,
+        "correctAnswer": ["Spotify"],
+        "backgroundColor": "1DD05D",
+        "congratulations": "Vedo che nemmeno te paghi l’abbonamento mensile eh? Che pirata!",
+        "wrongAnswer": [{
+            "userAnswer": "Musica",
+            "tip": "Beh la musica è troppo generale stiamo parlando di un’app"
+        }, {
+            "userAnswer": "Canzoni",
+            "tip": "Troppo generale! Se ti dicessi verde cosa ti verrebbe in mente?"
+        }, {
+            "userAnswer": "Note musicali",
+            "tip": "Non pensavo si potessero crackare…"
+        }]
+    },
+    {
+        "id": 19,
+        "image": "assets/images/xor.png",
+        "suggestion": "10",
+        "difficult": 1,
+        "correctAnswer": ["1"],
+        "backgroundColor": "ECB8DE",
+        "congratulations": "Gli anni a fare circuiti logici sono serviti a qualcosa…",
+        "wrongAnswer": [{
+            "userAnswer": "Xor",
+            "tip": "Si è lei ma non vogliamo il nome della porta"
+        }, {
+            "userAnswer": "Porta logica",
+            "tip": "Si, quello è P A L E S E H"
+        }, {
+            "userAnswer": "and",
+            "tip": "Non solo non è ciò che vogliamo ma è anche la porta sbagliata"
+        }, {
+            "userAnswer": "or",
+            "tip": "Risposte come questa infliggono dolore fisico a Massaro"
+        }, {
+            "userAnswer": "not",
+            "tip": "Negami questa risposta: ‘SI"
+        }]
+    },
+    {
+        "id": 20,
+        "image": "assets/images/davidmichelangelo.png",
+        "suggestion": "Uno scultore",
+        "difficult": 1,
+        "correctAnswer": ["Michelangelo", "Michelangelo Buonarroti"],
+        "backgroundColor": "F5E298",
+        "congratulations": "Lo sapevi che ha impiegato più di due giorni per scolpire il David? Non si finisce mai di imparare…",
+        "wrongAnswer": [{
+                "userAnswer": "Leonardo",
+                "tip": "No, lui faceva macchine volanti, io voglio uno scultore..."
+            },
+            {
+                "userAnswer": "Van Gogh",
+                "tip": "Sul serio?!”"
+            },
+            {
+                "userAnswer": "Donatello",
+                "tip": "Mi sa che hai preso la tartaruga ninja sbagliata"
+            },
+            {
+                "userAnswer": "Raffaello",
+                "tip": "Non è un cioccolatino, è uno scultore"
+            }
+        ]
+    },
+    {
+        "id": 21,
+        "image": "assets/images/sternocleidomastoideo.png",
+        "suggestion": "Un muscolo",
+        "difficult": 1,
+        "correctAnswer": ["Sternocleidomastoideo"],
+        "backgroundColor": "89D1E3",
+        "congratulations": "Ed era quando alle medie dicevi “Sternocleidomastoideo” che la classe capiva chi era l’acculturato...",
+        "wrongAnswer": [{
+                "userAnswer": "Clavicola",
+                "tip": "Quello è un osso, io voglio un muscolo"
+            },
+            {
+                "userAnswer": "Cervicali",
+                "tip": "Non proprio, è più verso davanti"
+            }
+        ]
+    },
+    {
+        "id": 22,
+        "image": "assets/images/jackolantern.png",
+        "suggestion": "Una zucca",
+        "difficult": 1,
+        "correctAnswer": ["Jack O’ Lantern"],
+        "backgroundColor": "00348C",
+        "congratulations": "Sei un esperto di cultura estera eh?",
+        "wrongAnswer": [{
+                "userAnswer": "Halloween",
+                "tip": "Così è troppo facile, non è la festa la risposta"
+            },
+            {
+                "userAnswer": "Zucca di Halloween",
+                "tip": "Basta identificarla per il frutto, ha anche un nome!"
+            }, {
+                "userAnswer": "Zucca",
+                "tip": "Basta identificarla per il frutto, ha anche un nome!"
+            }
+        ]
+    },
+    {
+        "id": 23,
+        "image": "assets/images/moai.png",
+        "suggestion": "Gli abitanti degli antipodi",
+        "difficult": 1,
+        "correctAnswer": ["Moai"],
+        "backgroundColor": "DEEA88",
+        "congratulations": "Prima o poi vorrei vederle, sicuramente meglio di Stonehenge",
+        "wrongAnswer": [{
+                "userAnswer": "Isola di Pasqua",
+                "tip": "E i suoi abitanti rocciosi come si chiamano?"
+            },
+            {
+                "userAnswer": "Pasqua",
+                "tip": "E Natale non lo metti?"
+            }
+        ]
+    },
+    {
+        "id": 24,
+        "image": "assets/images/wechat.png",
+        "suggestion": "Whatsapp cinese",
+        "difficult": 1,
+        "correctAnswer": ["WeChat", "We Chat"],
+        "backgroundColor": "b6dbbc",
+        "congratulations": "Incredibile! Nessuno lo usa in Italia ma vedo che lo conosci, bravo",
+        "wrongAnswer": [{
+            "userAnswer": "Tik Tok",
+            "tip": "Non è proprio un’app di messaggistica però apprezzo lo sforzo"
+        }, {
+            "userAnswer": "Instagram",
+            "tip": "Sai che è bannato in Cina? Quindi non penso proprio sia questo la risposta"
+        }, {
+            "userAnswer": "Telegram",
+            "tip": "Sei serio? Dai hanno pure lo stesso colore"
+        }, {
+            "userAnswer": "Snapchat",
+            "tip": "Capisco che condividono lo stesso colore giallo ma non è questa la risposta"
+        }]
+    },
+    {
+        "id": 25,
+        "image": "assets/images/otamatone.png",
+        "suggestion": "Uno strumento musicale",
+        "difficult": 1,
+        "correctAnswer": ["Otamatone"],
+        "backgroundColor": "FCAC61",
+        "congratulations": "Vorrei troppo averne uno",
+        "wrongAnswer": [{
+            "userAnswer": "flauto",
+            "tip": "per suonare questo non devi soffiare"
+        }, {
+            "userAnswer": "trombone",
+            "tip": "certo che la tua immaginazione mi sorprende"
+        }, {
+            "userAnswer": "nota musicale",
+            "tip": "non so da quando una nota sia uno strumento musicale"
+        }]
+    },
+    {
+        "id": 26,
+        "image": "assets/images/songoku.png",
+        "suggestion": "Il protagonista",
+        "difficult": 1,
+        "correctAnswer": ["Son Goku", "Goku Son"],
+        "backgroundColor": "C5C8C9",
+        "congratulations": "Lo hai cercato su internet o sei una persona formale che chiama tutti per nome e cognome? Bravo comunque",
+        "wrongAnswer": [{
+            "userAnswer": "Goku",
+            "tip": "Anche il cognome perfavore :D"
+        }, {
+            "userAnswer": "Dragonball",
+            "tip": "Vedo che ti piacciono le PALLE del drago ma vorremmo sapere del protagonista"
+        }, {
+            "userAnswer": "Sfere del drago",
+            "tip": "Certo che non sai nulla di inglese... lo chiamiamo tutti Dragonball"
+        }]
+    },
+    {
+        "id": 27,
+        "image": "assets/images/trenitalia.png",
+        "suggestion": "In ritardo",
+        "difficult": 1,
+        "correctAnswer": ["Trenitalia"],
+        "backgroundColor": "FFFFFF",
+        "congratulations": "Se hai una verifica o un'interrogazione Trenitalia ha il ritardo giusto per te",
+        "wrongAnswer": [{
+                "userAnswer": "Treno",
+                "tip": "Beh devo dire che hai proprio una buona vista ma non è questa la risposta"
+            },
+            {
+                "userAnswer": "Stazione",
+                "tip": "Utilizzare le sineddoche è il tuo forte eh? Vogliamo qualcosa di più specifico"
+            }, {
+                "userAnswer": "Ferrovia",
+                "tip": "Ok ma la ferrovia statale più famosa?"
+            }
+        ]
+    },
+    {
+        "id": 28,
+        "image": "assets/images/spaggiari.png",
+        "suggestion": "Un registro",
+        "difficult": 1,
+        "correctAnswer": ["Spaggiari"],
+        "backgroundColor": "C5C8C9",
+        "congratulations": "Se hai avuto difficoltà ad indovinare vuol dire che la tua scuola è del neolitico e utilizzate ancora il registro di carta oppure che usate uno di quei registri di sottomarca tipo Argo.",
+        "wrongAnswer": [{
+            "userAnswer": "Mare",
+            "tip": "Beh lì ci andiamo d’estate. Mi dispiace ma non è questa la risposta"
+        }, {
+            "userAnswer": "Spiaggia",
+            "tip": "Questo gioco non è così semplice da chiederti scrivere solo ciò che vedi, pensa un po’ alla fonetica"
+        }, {
+            "userAnswer": "Sabbia",
+            "tip": "La sabbia è tutta tua quando prendi un brutto voto"
+        }]
+    },
+    {
+        "id": 29,
+        "image": "assets/images/meinkampf.png",
+        "suggestion": "Un libro",
+        "difficult": 1,
+        "correctAnswer": ["Mein Kampf"],
+        "backgroundColor": "004DA6",
+        "congratulations": "Beh se sei riuscito/a ad indovinarlo vuol dire che sei proprio uno storico o ti piace il black humor",
+        "wrongAnswer": [{
+            "userAnswer": "Minecraft",
+            "tip": "Beh le due parole si assomigliano ma la risposta è tutt’altra"
+        }, {
+            "userAnswer": "Hitler",
+            "tip": "Certo che quel pizzetto è proprio riconoscibile ma non è quella la risposta"
+        }, {
+            "userAnswer": "Meinkampf",
+            "tip": "Bravo/a ma non ci siamo… diamo un po’ più di spazio"
+        }]
+    },
+    {
+        "id": 30,
+        "image": "assets/images/fibonacci.png",
+        "suggestion": "Serie…",
+        "difficult": 1,
+        "correctAnswer": ["Successione Aurea"],
+        "backgroundColor": "9DACE2",
+        "congratulations": "Non vorrei mai essere l’addetto alle pulizie dal laboratorio di Fibonacci",
+        "wrongAnswer": [{
+            "userAnswer": "Fibonacci",
+            "tip": "Si lui l’ha inventata"
+        }, {
+            "userAnswer": "Serie di Fibonacci",
+            "tip": "Vorrei l’altro nome"
+        }, {
+            "userAnswer": "Playboy",
+            "tip": "Non è che dovunque ci sia un coniglio allora sia Playboy..."
+        }]
+    },
+    {
+        "id": 31,
+        "image": "/img/cicuta.png",
+        "suggestion": "Una pianta",
+        "difficult": 2,
+        "correctAnswer": ["Cicuta"],
+        "backgroundColor": "9DACE2",
+        "congratulations": "Socrate accettò l’ingiusta condanna e ne bevve un infuso, complimenti!",
+        "wrongAnswer": [{
+            "userAnswer": "Fiorellini ",
+            "tip": "Si beh, non è sbagliato..."
+        }, {
+            "userAnswer": "Erbaccia",
+            "tip": "Te la porterei qua per vedere come ci scrivi..."
+        }]
+    },
+    {
+        "id": 32,
+        "image": "assets/images/restigeelite72.png",
+        "suggestion": "Il sogno di Lo Rito",
+        "difficult": 2,
+        "correctAnswer": ["Prestige Elite 72"],
+        "backgroundColor": "TODO",
+        "congratulations": "Wikipedia a volte è veramente utile...",
+        "wrongAnswer": [{
+            "userAnswer": "Testina rotante",
+            "tip": "Sarà da persone poco carine ma chiediamo il modello?"
+        }, {
+            "userAnswer": "Macchina da scrivere",
+            "tip": "Te la porterei qua per vedere come ci scrivi..."
+        }, {
+            "userAnswer": "Dito",
+            "tip": "Sei un pò cattivello eh ahahhaha"
+        }]
+    },
+    {
+        "id": 33,
+        "image": "assets/images/mandala.png",
+        "suggestion": "Vai Flaviè...",
+        "difficult": 2,
+        "correctAnswer": ["Mandala"],
+        "backgroundColor": "TODO",
+        "congratulations": "Se cerchi un modo per rilassarti, colorare dei mandala è una buona opzione",
+        "wrongAnswer": [{
+            "userAnswer": "Mannala",
+            "tip": "Ascolti buona musica ma non è questa la risposta, concentrati sull’immagine"
+        }, {
+            "userAnswer": "disegno",
+            "tip": "Più nello specifico..."
+        }]
+    },
+    {
+        "id": 34,
+        "image": "assets/images/differenziale.png",
+        "suggestion": "Per i piloti",
+        "difficult": 2,
+        "correctAnswer": ["Differenziale"],
+        "backgroundColor": "TODO",
+        "congratulations": "Si vede che sei tra quelli che si sporcano le mani di grasso",
+        "wrongAnswer": [{
+            "userAnswer": "Ingranaggio",
+            "tip": "Si beh, non è sbagliato… Ma più precisamente?"
+        }, {
+            "userAnswer": "Ingranaggi",
+            "tip": "Si beh, non è sbagliato… Ma più precisamente?"
+        }, {
+            "userAnswer": "Frizione",
+            "tip": "Non proprio, è un altro componente"
+        }, {
+            "userAnswer": "Reattore",
+            "tip": "Pilota non è solo quello dell’aereo"
+        }]
+    },
+    {
+        "id": 35,
+        "image": "assets/images/guardiasvizzera.png",
+        "suggestion": "Una divisa",
+        "difficult": 2,
+        "correctAnswer": ["Guardia svizzera"],
+        "backgroundColor": "TODO",
+        "congratulations": "Se non sei Carlo Mavaracchio chiudi questa applicazione",
+        "wrongAnswer": [{
+            "userAnswer": "Cavaliere",
+            "tip": "AHAHAHAHAHAH no."
+        }, {
+            "userAnswer": "Pagliaccio",
+            "tip": "Effettivamente ci assomiglia..."
+        }, {
+            "userAnswer": "Guardie svizzere",
+            "tip": "Al singolare..."
+        }]
+    },
+    {
+        "id": 36,
+        "image": "assets/images/gianobifronte.png",
+        "suggestion": "Una statua",
+        "difficult": 2,
+        "correctAnswer": ["Giano bifronte"],
+        "backgroundColor": "TODO",
+        "congratulations": "Sei fortunato che non ho messo il fegato di Piacenza...non sai cos'è vero?",
+        "wrongAnswer": [{
+            "userAnswer": "Erma",
+            "tip": "Sì... ma è un tipo di erma particolare"
+        }, {
+            "userAnswer": "Statua",
+            "tip": "Sì certo e tu sei un essere umano... troppo generico"
+        }, {
+            "userAnswer": "Bifronte",
+            "tip": "Sì, ma chi è esattamente?"
+        }, {
+            "userAnswer": "Statua Bifronte",
+            "tip": "Piccolo indizio, fa rima con Ciano"
+        }, {
+            "userAnswer": "Erma Bifronte",
+            "tip": "Vorrei il nome dell’erma bifronte più famosa"
+        }]
+    }, {
+        "id": 37,
+        "image": "assets/images/marienplatz.png",
+        "suggestion": "Un luogo",
+        "difficult": 2,
+        "correctAnswer": ["Marienplatz"],
+        "backgroundColor": "TODO",
+        "congratulations": "Le cose sono due, o sei un membro della 5IC oppure sei bravo in geografia, in entrambi i casi... Complimenti!",
+        "wrongAnswer": [{
+            "userAnswer": "Sagrada familia",
+            "tip": "Sicuro di vederci bene?"
+        }, {
+            "userAnswer": "Germania",
+            "tip": "Un po’ troppo generale non credi?"
+        }, {
+            "userAnswer": "Monaco",
+            "tip": "Si quella è la città, ma il posto?"
+        }]
+    }, {
+        "id": 38,
+        "image": "assets/images/sunwukong.png",
+        "suggestion": "Una scimmia",
+        "difficult": 2,
+        "correctAnswer": ["Sun Wukong"],
+        "backgroundColor": "TODO",
+        "congratulations": "Wow sei proprio acculturato o sei amico di un cinese?",
+        "wrongAnswer": [{
+            "userAnswer": "Scimmia",
+            "tip": "Si... lo vediamo anche noi ma quale?"
+        }, {
+            "userAnswer": "Re delle scimmie",
+            "tip": "Esatto, ma vorremmo sapere il nome"
+        }, {
+            "userAnswer": "Guerriero",
+            "tip": "Lo è, ma come si chiama?"
+        }]
+    }, {
+        "id": 39,
+        "image": "assets/images/marinetti.png",
+        "suggestion": "Un manifesto",
+        "difficult": 2,
+        "correctAnswer": ["Manifesto del Futurismo"],
+        "backgroundColor": "TODO",
+        "congratulations": "Vedi che le lezioni di Vianello servono a qualcosa?",
+        "wrongAnswer": [{
+            "userAnswer": "Manifesto",
+            "tip": "Il senso del gioco non è scrivere il titolo..."
+        }, {
+            "userAnswer": "Marinetti",
+            "tip": "Vedo che hai seguito le lezioni di Vianello, ma cosa scrisse?"
+        }, {
+            "userAnswer": "Manifesto del partito comunista",
+            "tip": "Beh non esattamente… ti dico solo che è stato scritto da un italiano"
+        }]
+    }, {
+        "id": 40,
+        "image": "assets/images/yellowstone.png",
+        "suggestion": "Un'acqua acida",
+        "difficult": 2,
+        "correctAnswer": ["Yellowstone"],
+        "backgroundColor": "TODO",
+        "congratulations": "Quei colori sono intrippanti...",
+        "wrongAnswer": [{
+            "userAnswer": "Montana",
+            "tip": "Ma il posto in particolare come si chiama?"
+        }, {
+            "userAnswer": "Zolfo",
+            "tip": "È molto presente ma vorrei sapere il nome del parco"
+        }, {
+            "userAnswer": "Lago",
+            "tip": "Un lago in particolare in America"
+        }, {
+            "userAnswer": "Etna",
+            "tip": "C’entra con i vulcani, ma in America"
+        }, {
+            "userAnswer": "Vesuvio",
+            "tip": "Hmmm... è più un parco americano"
+        }]
     }
+
+
 ]
