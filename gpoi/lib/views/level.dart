@@ -3,6 +3,7 @@ import 'dart:convert';
 import 'package:flutter/material.dart';
 import 'package:flutter/services.dart';
 import 'package:gpoi/classes/Level.dart';
+import 'package:shared_preferences/shared_preferences.dart';
 
 class LevelPage extends StatefulWidget {
   int _id;
@@ -18,6 +19,9 @@ class _LevelPageState extends State<LevelPage> {
   Color backgroundColor = new Color(0xffffffff);
   String title = "";
   Image _levelImage;
+  String _modalTitle;
+  String _modalBody;
+  TextEditingController _responseController = new TextEditingController();
 
   @override
   void initState() {
@@ -28,6 +32,51 @@ class _LevelPageState extends State<LevelPage> {
 
   Color hexToColor(String hex) {
     return new Color(int.parse(hex, radix: 16) + 0xFF000000);
+  }
+
+  void getResponse(TextEditingController text) {
+    for (var i = 0; i < level.correctAnswer.length; i++) {
+      if (text.text.toLowerCase() == level.correctAnswer[i].toLowerCase()) {
+        _modalTitle = "Risposta corretta";
+        _modalBody = level.congratulations;
+        showModal();
+      }
+    }
+    _modalTitle = "Risposta errata";
+    for (var i = 0; i < level.wrongAnswer.length; i++) {
+      if (level.wrongAnswer[i].userAnswer.toLowerCase() ==
+          text.text.toLowerCase()) {
+        _modalBody = level.wrongAnswer[i].tip;
+        showModal();
+        break;
+      }
+    }
+  }
+
+  Future<void> showModal() {
+    return showDialog(
+        context: context,
+        barrierDismissible: false,
+        builder: (BuildContext context) {
+          return AlertDialog(
+            title: Text(_modalTitle),
+            content: Text(_modalBody),
+            actions: [
+              //TODO: mandare utente quando ha indovinato la parola nella pagina di tutti i livelli
+              TextButton(
+                child: Text("Ho capito!"),
+                onPressed: () async {
+                  if (_modalTitle == "Risposta corretta") {
+                    SharedPreferences prefs =
+                        await SharedPreferences.getInstance();
+                    // prefs.setInt("lastLevelNumber") ?? 1;
+                  }
+                  Navigator.of(context).pop();
+                },
+              )
+            ],
+          );
+        });
   }
 
   void getJson() async {
@@ -93,6 +142,15 @@ class _LevelPageState extends State<LevelPage> {
                     alignment: Alignment.bottomCenter,
                     child: Image.asset('assets/images/ellipse.png'),
                   ),
+                  Container(
+                    margin: EdgeInsets.only(bottom: 60),
+                    child: IconButton(
+                      iconSize: 40,
+                      icon: Icon(Icons.fiber_manual_record_outlined),
+                      color: Colors.white,
+                      onPressed: () => {getResponse(_responseController)},
+                    ),
+                  ),
                   Padding(
                     padding: EdgeInsets.only(top: 60.0),
                     child: Align(
@@ -100,6 +158,7 @@ class _LevelPageState extends State<LevelPage> {
                       child: Container(
                         width: 250,
                         child: TextField(
+                          controller: _responseController,
                           decoration: InputDecoration(
                             enabledBorder: OutlineInputBorder(
                               borderSide: BorderSide(
