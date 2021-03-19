@@ -450,7 +450,7 @@
         "image": "assets/images/jackolantern.png",
         "suggestion": "Una zucca",
         "difficult": 1,
-        "correctAnswer": ["Jack O’ Lantern"],
+        "correctAnswer": ["Jack O' Lantern", "Jack O Lantern"],
         "backgroundColor": "00348C",
         "congratulations": "Sei un esperto di cultura estera eh?",
         "wrongAnswer": [{
@@ -624,7 +624,7 @@
     },
     {
         "id": 31,
-        "image": "/img/cicuta.png",
+        "image": "assets/images/cicuta.png",
         "suggestion": "Una pianta",
         "difficult": 2,
         "correctAnswer": ["Cicuta"],

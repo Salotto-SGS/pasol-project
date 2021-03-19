@@ -13,7 +13,9 @@ class MyApp extends StatelessWidget {
       title: 'Pasol',
       debugShowCheckedModeBanner: false,
       theme: ThemeData(
-        primarySwatch: Colors.blue,
+        accentColor: Colors.white,
+        brightness: Brightness.light,
+        primaryColor: Colors.white,
       ),
       home: MyHomePage(title: 'Pasol Home Page'),
       onGenerateRoute: RouteGenerator.generateRoute,

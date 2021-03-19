@@ -15,6 +15,7 @@ class _AllLevelsPageState extends State<AllLevelsPage> {
   // List<int> levels = [1, 2, 3, 4, 5, 6, 7, 8];
   List<Level> levels = [];
   int _lastLevelNumber;
+  double height, width;
 
   @override
   void initState() {
@@ -56,6 +57,8 @@ class _AllLevelsPageState extends State<AllLevelsPage> {
 
   @override
   Widget build(BuildContext context) {
+    height = MediaQuery.of(context).size.height;
+    width = MediaQuery.of(context).size.width;
     return Scaffold(
       body: Center(
         child: Column(
@@ -78,8 +81,8 @@ class _AllLevelsPageState extends State<AllLevelsPage> {
                                   mainAxisSize: MainAxisSize.min,
                                   children: [
                                     Container(
-                                      height: 60,
-                                      width: 90,
+                                      height: height * 0.08,
+                                      width: width * 0.15,
                                       child: getImage(levels[index * 4].id,
                                           levels[index * 4].difficult),
                                     ),
@@ -106,8 +109,8 @@ class _AllLevelsPageState extends State<AllLevelsPage> {
                                 },
                               )
                             : Container(
-                                height: 60,
-                                width: 90,
+                                height: height * 0.08,
+                                width: width * 0.15,
                               ),
                         levels.length > index * 4 + 1
                             ? GestureDetector(
@@ -115,8 +118,8 @@ class _AllLevelsPageState extends State<AllLevelsPage> {
                                   mainAxisSize: MainAxisSize.min,
                                   children: [
                                     Container(
-                                      height: 60,
-                                      width: 90,
+                                      height: height * 0.08,
+                                      width: width * 0.15,
                                       child: getImage(levels[index * 4 + 1].id,
                                           levels[index * 4 + 1].difficult),
                                     ),
@@ -143,8 +146,8 @@ class _AllLevelsPageState extends State<AllLevelsPage> {
                                 },
                               )
                             : Container(
-                                height: 60,
-                                width: 90,
+                                height: height * 0.08,
+                                width: width * 0.15,
                               ),
                         levels.length > index * 4 + 2
                             ? GestureDetector(
@@ -152,8 +155,8 @@ class _AllLevelsPageState extends State<AllLevelsPage> {
                                   mainAxisSize: MainAxisSize.min,
                                   children: [
                                     Container(
-                                      height: 60,
-                                      width: 90,
+                                      height: height * 0.08,
+                                      width: width * 0.15,
                                       child: getImage(levels[index * 4 + 2].id,
                                           levels[index * 4 + 2].difficult),
                                     ),
@@ -180,8 +183,8 @@ class _AllLevelsPageState extends State<AllLevelsPage> {
                                 },
                               )
                             : Container(
-                                height: 60,
-                                width: 90,
+                                height: height * 0.08,
+                                width: width * 0.15,
                               ),
                         levels.length > index * 4 + 3
                             ? GestureDetector(
@@ -189,8 +192,8 @@ class _AllLevelsPageState extends State<AllLevelsPage> {
                                   mainAxisSize: MainAxisSize.min,
                                   children: [
                                     Container(
-                                      height: 60,
-                                      width: 90,
+                                      height: height * 0.08,
+                                      width: width * 0.15,
                                       child: getImage(levels[index * 4 + 3].id,
                                           levels[index * 4 + 3].difficult),
                                     ),
@@ -217,8 +220,8 @@ class _AllLevelsPageState extends State<AllLevelsPage> {
                                 },
                               )
                             : Container(
-                                height: 60,
-                                width: 90,
+                                height: height * 0.08,
+                                width: width * 0.15,
                               ),
                       ],
                     ),

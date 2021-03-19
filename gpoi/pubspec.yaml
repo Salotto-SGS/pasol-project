@@ -68,6 +68,9 @@ flutter:
     - family: IndieFlower
       fonts:
         - asset: assets/fonts/IndieFlower-Regular.ttf
+    - family: AlegreyaSans
+      fonts:
+        - asset: assets/fonts/AlegreyaSans-Regular.ttf
   #       - asset: fonts/Schyler-Italic.ttf
   #         style: italic
   #   - family: Trajan Pro

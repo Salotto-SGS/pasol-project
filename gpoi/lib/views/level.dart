@@ -1,5 +1,6 @@
 import 'dart:convert';
 
+import 'package:flutter/foundation.dart';
 import 'package:flutter/material.dart';
 import 'package:flutter/services.dart';
 import 'package:gpoi/classes/Level.dart';
@@ -22,6 +23,7 @@ class _LevelPageState extends State<LevelPage> {
   String _modalTitle;
   String _modalBody;
   TextEditingController _responseController = new TextEditingController();
+  Icon _responseIcon = Icon(Icons.fiber_manual_record_outlined);
 
   @override
   void initState() {
@@ -39,10 +41,13 @@ class _LevelPageState extends State<LevelPage> {
       if (text.text.toLowerCase() == level.correctAnswer[i].toLowerCase()) {
         _modalTitle = "Risposta corretta";
         _modalBody = level.congratulations;
+        _responseIcon = Icon(Icons.check_rounded);
         showModal();
+        setState(() {});
+        return;
       }
     }
-
+    _responseIcon = Icon(Icons.clear_rounded);
     for (var i = 0; i < level.wrongAnswer.length; i++) {
       if (level.wrongAnswer[i].userAnswer.toLowerCase() ==
           text.text.toLowerCase()) {
@@ -52,6 +57,7 @@ class _LevelPageState extends State<LevelPage> {
         break;
       }
     }
+    setState(() {});
   }
 
   Future<void> showModal() {
@@ -60,19 +66,56 @@ class _LevelPageState extends State<LevelPage> {
         barrierDismissible: false,
         builder: (BuildContext context) {
           return AlertDialog(
-            title: Text(_modalTitle),
-            content: Text(_modalBody),
+            shape: RoundedRectangleBorder(
+              borderRadius: BorderRadius.all(
+                Radius.circular(10.0),
+              ),
+            ),
+            title: Text(
+              _modalTitle,
+              textAlign: TextAlign.center,
+              style: TextStyle(
+                fontSize: 26,
+                fontFamily: 'IndieFlower',
+              ),
+            ),
+            content: Text(
+              _modalBody,
+              textAlign: TextAlign.center,
+              style: TextStyle(
+                fontSize: 18,
+                fontFamily: 'AlegreyaSans',
+              ),
+            ),
             actions: [
               TextButton(
-                child: Text("Ho capito!"),
+                child: Text(
+                  "Ho capito!",
+                  style: TextStyle(
+                    color: Colors.white,
+                    fontSize: 20,
+                    fontFamily: 'IndieFlower',
+                  ),
+                ),
+                style: TextButton.styleFrom(
+                  backgroundColor: Colors.purple[400],
+                  padding:
+                      EdgeInsets.only(top: 10, bottom: 10, left: 30, right: 30),
+                  shadowColor: Colors.purple,
+                  shape: RoundedRectangleBorder(
+                    borderRadius: BorderRadius.circular(10.0),
+                  ),
+                ),
                 onPressed: () async {
                   if (_modalTitle == "Risposta corretta") {
                     SharedPreferences prefs =
                         await SharedPreferences.getInstance();
                     prefs.setInt("lastLevelNumber", level.id + 1);
+                    Navigator.of(context).pop();
+                    Navigator.pushNamed(context, '/AllLevels');
+                    return;
                   }
                   Navigator.of(context).pop();
-                  Navigator.pushNamed(context, '/AllLevels');
                 },
               )
             ],
@@ -112,8 +155,10 @@ class _LevelPageState extends State<LevelPage> {
                   Align(
                     alignment: Alignment.centerLeft,
                     child: IconButton(
-                        icon: Icon(Icons.arrow_back, size: 30),
-                        onPressed: null),
+                      icon: Icon(Icons.arrow_back, size: 30),
+                      onPressed: () =>
+                          Navigator.pushNamed(context, '/AllLevels'),
+                    ),
                   ),
                   Align(
                     alignment: Alignment.center,
@@ -147,7 +192,7 @@ class _LevelPageState extends State<LevelPage> {
                     margin: EdgeInsets.only(bottom: 60),
                     child: IconButton(
                       iconSize: 40,
-                      icon: Icon(Icons.fiber_manual_record_outlined),
+                      icon: _responseIcon,
                       color: Colors.white,
                       onPressed: () => {getResponse(_responseController)},
                     ),
@@ -160,14 +205,34 @@ class _LevelPageState extends State<LevelPage> {
                         width: 250,
                         child: TextField(
                           controller: _responseController,
+                          style: TextStyle(
+                            color: Colors.white,
+                          ),
+                          cursorColor: Colors.white,
+                          textCapitalization: TextCapitalization.sentences,
                           decoration: InputDecoration(
-                            enabledBorder: OutlineInputBorder(
+                            enabledBorder: UnderlineInputBorder(
                               borderSide: BorderSide(
                                 color: Colors.white,
-                                width: 5.0,
+                                width: 3.0,
+                              ),
+                            ),
+                            focusedBorder: UnderlineInputBorder(
+                              borderSide: BorderSide(
+                                color: Colors.white,
+                                width: 3.0,
+                              ),
+                            ),
+                            border: UnderlineInputBorder(
+                              borderSide: BorderSide(
+                                color: Colors.white,
+                                width: 3.0,
                               ),
                             ),
                             hintText: 'Scrivi qui',
+                            hintStyle: TextStyle(
+                              color: Colors.white,
+                            ),
                           ),
                         ),
                       ),
