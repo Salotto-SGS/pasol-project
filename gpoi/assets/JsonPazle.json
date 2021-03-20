@@ -43,7 +43,7 @@
         "image": "assets/images/solecuoreamore.png",
         "suggestion": "Dammi 3 parole",
         "difficult": 0,
-        "correctAnswer": ["Daniele Vicari"],
+        "correctAnswer": ["Valeria Rossi"],
         "backgroundColor": "92CED9",
         "congratulations": "Spero non sia stato un problema se ti ho chiesto 3 parole ma la risposta ne richiedeva 2",
         "wrongAnswer": [{
@@ -490,7 +490,7 @@
         "suggestion": "Whatsapp cinese",
         "difficult": 1,
         "correctAnswer": ["WeChat", "We Chat"],
-        "backgroundColor": "b6dbbc",
+        "backgroundColor": "B6DBBC",
         "congratulations": "Incredibile! Nessuno lo usa in Italia ma vedo che lo conosci, bravo",
         "wrongAnswer": [{
             "userAnswer": "Tik Tok",
@@ -550,7 +550,7 @@
         "suggestion": "In ritardo",
         "difficult": 1,
         "correctAnswer": ["Trenitalia"],
-        "backgroundColor": "FFFFFF",
+        "backgroundColor": "DD3D51",
         "congratulations": "Se hai una verifica o un'interrogazione Trenitalia ha il ritardo giusto per te",
         "wrongAnswer": [{
                 "userAnswer": "Treno",
@@ -571,7 +571,7 @@
         "suggestion": "Un registro",
         "difficult": 1,
         "correctAnswer": ["Spaggiari"],
-        "backgroundColor": "C5C8C9",
+        "backgroundColor": "FFFFFF",
         "congratulations": "Se hai avuto difficoltà ad indovinare vuol dire che la tua scuola è del neolitico e utilizzate ancora il registro di carta oppure che usate uno di quei registri di sottomarca tipo Argo.",
         "wrongAnswer": [{
             "userAnswer": "Mare",
@@ -590,7 +590,7 @@
         "suggestion": "Un libro",
         "difficult": 1,
         "correctAnswer": ["Mein Kampf"],
-        "backgroundColor": "004DA6",
+        "backgroundColor": "C5C8C9",
         "congratulations": "Beh se sei riuscito/a ad indovinarlo vuol dire che sei proprio uno storico o ti piace il black humor",
         "wrongAnswer": [{
             "userAnswer": "Minecraft",
@@ -609,7 +609,7 @@
         "suggestion": "Serie…",
         "difficult": 1,
         "correctAnswer": ["Successione Aurea"],
-        "backgroundColor": "9DACE2",
+        "backgroundColor": "004DA6",
         "congratulations": "Non vorrei mai essere l’addetto alle pulizie dal laboratorio di Fibonacci",
         "wrongAnswer": [{
             "userAnswer": "Fibonacci",
@@ -644,7 +644,7 @@
         "suggestion": "Il sogno di Lo Rito",
         "difficult": 2,
         "correctAnswer": ["Prestige Elite 72"],
-        "backgroundColor": "TODO",
+        "backgroundColor": "F4BAAA",
         "congratulations": "Wikipedia a volte è veramente utile...",
         "wrongAnswer": [{
             "userAnswer": "Testina rotante",
@@ -663,7 +663,7 @@
         "suggestion": "Vai Flaviè...",
         "difficult": 2,
         "correctAnswer": ["Mandala"],
-        "backgroundColor": "TODO",
+        "backgroundColor": "FFFFFF",
         "congratulations": "Se cerchi un modo per rilassarti, colorare dei mandala è una buona opzione",
         "wrongAnswer": [{
             "userAnswer": "Mannala",
@@ -679,7 +679,7 @@
         "suggestion": "Per i piloti",
         "difficult": 2,
         "correctAnswer": ["Differenziale"],
-        "backgroundColor": "TODO",
+        "backgroundColor": "FFFFFF",
         "congratulations": "Si vede che sei tra quelli che si sporcano le mani di grasso",
         "wrongAnswer": [{
             "userAnswer": "Ingranaggio",
@@ -701,7 +701,7 @@
         "suggestion": "Una divisa",
         "difficult": 2,
         "correctAnswer": ["Guardia svizzera"],
-        "backgroundColor": "TODO",
+        "backgroundColor": "96BEC9",
         "congratulations": "Se non sei Carlo Mavaracchio chiudi questa applicazione",
         "wrongAnswer": [{
             "userAnswer": "Cavaliere",
@@ -720,7 +720,7 @@
         "suggestion": "Una statua",
         "difficult": 2,
         "correctAnswer": ["Giano bifronte"],
-        "backgroundColor": "TODO",
+        "backgroundColor": "78787B",
         "congratulations": "Sei fortunato che non ho messo il fegato di Piacenza...non sai cos'è vero?",
         "wrongAnswer": [{
             "userAnswer": "Erma",
@@ -744,7 +744,7 @@
         "suggestion": "Un luogo",
         "difficult": 2,
         "correctAnswer": ["Marienplatz"],
-        "backgroundColor": "TODO",
+        "backgroundColor": "C19166",
         "congratulations": "Le cose sono due, o sei un membro della 5IC oppure sei bravo in geografia, in entrambi i casi... Complimenti!",
         "wrongAnswer": [{
             "userAnswer": "Sagrada familia",
@@ -762,7 +762,7 @@
         "suggestion": "Una scimmia",
         "difficult": 2,
         "correctAnswer": ["Sun Wukong"],
-        "backgroundColor": "TODO",
+        "backgroundColor": "C19166",
         "congratulations": "Wow sei proprio acculturato o sei amico di un cinese?",
         "wrongAnswer": [{
             "userAnswer": "Scimmia",
@@ -780,7 +780,7 @@
         "suggestion": "Un manifesto",
         "difficult": 2,
         "correctAnswer": ["Manifesto del Futurismo"],
-        "backgroundColor": "TODO",
+        "backgroundColor": "26CE7B",
         "congratulations": "Vedi che le lezioni di Vianello servono a qualcosa?",
         "wrongAnswer": [{
             "userAnswer": "Manifesto",
@@ -798,7 +798,7 @@
         "suggestion": "Un'acqua acida",
         "difficult": 2,
         "correctAnswer": ["Yellowstone"],
-        "backgroundColor": "TODO",
+        "backgroundColor": "26CE7B",
         "congratulations": "Quei colori sono intrippanti...",
         "wrongAnswer": [{
             "userAnswer": "Montana",
