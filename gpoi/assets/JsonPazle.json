@@ -1,5 +1,18 @@
 [{
         "id": 1,
+        "image": "assets/images/",
+        "suggestion": "prova",
+        "difficult": 0,
+        "correctAnswer": ["prova"],
+        "backgroundColor": "FFFFFF",
+        "congratulations": "prova",
+        "wrongAnswer": [{
+            "userAnswer": "",
+            "tip": ""
+        }]
+    },
+    {
+        "id": 2,
         "image": "assets/images/banana.png",
         "suggestion": "Un frutto...",
         "difficult": 0,
@@ -17,7 +30,7 @@
         ]
     },
     {
-        "id": 2,
+        "id": 3,
         "image": "assets/images/java.png",
         "suggestion": "Un linguaggio",
         "difficult": 0,
@@ -39,12 +52,12 @@
         ]
     },
     {
-        "id": 3,
+        "id": 4,
         "image": "assets/images/solecuoreamore.png",
         "suggestion": "Dammi 3 parole",
         "difficult": 0,
         "correctAnswer": ["Valeria Rossi"],
-        "backgroundColor": "92CED9",
+        "backgroundColor": "F5E298",
         "congratulations": "Spero non sia stato un problema se ti ho chiesto 3 parole ma la risposta ne richiedeva 2",
         "wrongAnswer": [{
                 "userAnswer": "Sole ",
@@ -65,7 +78,7 @@
         ]
     },
     {
-        "id": 4,
+        "id": 5,
         "image": "assets/images/rgbled.png",
         "suggestion": "Un componente",
         "difficult": 0,
@@ -87,7 +100,7 @@
         ]
     },
     {
-        "id": 5,
+        "id": 6,
         "image": "assets/images/zuccante.png",
         "suggestion": "Un inferno",
         "difficult": 0,
@@ -105,13 +118,13 @@
         ]
     },
     {
-        "id": 6,
+        "id": 7,
         "image": "assets/images/darthvader.png",
         "suggestion": "Sono tuo padre",
         "difficult": 0,
         "correctAnswer": ["Dart Fener", "Darth Fener", "Darth Vader", "Lord Fener"],
         "backgroundColor": "22395A",
-        "congratulations": "Che comunque poteva dirglielo in un momento migliore eh…",
+        "congratulations": "Lo sapevi che la frase originale non è 'Luke, io sono tuo padre' ma 'No, io sono tuo padre'?",
         "wrongAnswer": [{
                 "userAnswer": "Luke Skywalker",
                 "tip": "Non proprio, chi è che pronuncia la frase del titolo?"
@@ -123,7 +136,7 @@
         ]
     },
     {
-        "id": 7,
+        "id": 8,
         "image": "assets/images/discord.png",
         "suggestion": "Un fedele alleato",
         "difficult": 0,
@@ -141,11 +154,11 @@
         ]
     },
     {
-        "id": 8,
+        "id": 9,
         "image": "assets/images/anubi.png",
         "suggestion": "Una Divinità",
         "difficult": 0,
-        "correctAnswer": ["Anubi"],
+        "correctAnswer": ["Anubi", "Anubis"],
         "backgroundColor": "E6E28B",
         "congratulations": "Sono tutti dii ma di diverse categorie",
         "wrongAnswer": [{
@@ -163,7 +176,7 @@
         ]
     },
     {
-        "id": 9,
+        "id": 10,
         "image": "assets/images/plutone.png",
         "suggestion": "Ero un pianeta",
         "difficult": 0,
@@ -213,11 +226,11 @@
         ]
     },
     {
-        "id": 10,
+        "id": 11,
         "image": "assets/images/gandalf.png",
         "suggestion": "Non puoi passare",
         "difficult": 0,
-        "correctAnswer": ["Signore degli anelli"],
+        "correctAnswer": ["Signore degli anelli", "Il signore degli anelli"],
         "backgroundColor": "BB9879",
         "congratulations": "Se avessimo messo Gandalf sarebbe stato troppo facile…",
         "wrongAnswer": [{
@@ -235,7 +248,7 @@
         ]
     },
     {
-        "id": 11,
+        "id": 12,
         "image": "assets/images/vodka.png",
         "suggestion": "Cyka blyat",
         "difficult": 0,
@@ -257,7 +270,7 @@
         ]
     },
     {
-        "id": 12,
+        "id": 13,
         "image": "assets/images/netflix.png",
         "suggestion": "Un altro episodio",
         "difficult": 0,
@@ -279,7 +292,7 @@
         ]
     },
     {
-        "id": 13,
+        "id": 14,
         "image": "assets/images/icaro.png",
         "suggestion": "Troppo in alto",
         "difficult": 0,
@@ -297,7 +310,7 @@
         ]
     },
     {
-        "id": 14,
+        "id": 15,
         "image": "assets/images/maryshelley.png",
         "suggestion": "Una scrittrice",
         "difficult": 1,
@@ -316,7 +329,7 @@
         }]
     },
     {
-        "id": 15,
+        "id": 16,
         "image": "assets/images/donquijote.png",
         "suggestion": "Un personaggio",
         "difficult": 1,
@@ -329,7 +342,7 @@
         }]
     },
     {
-        "id": 16,
+        "id": 17,
         "image": "assets/images/bobbymcferrin.png",
         "suggestion": "Un cantante",
         "difficult": 1,
@@ -342,7 +355,7 @@
         }]
     },
     {
-        "id": 17,
+        "id": 18,
         "image": "assets/images/mimosa.png",
         "suggestion": "Run the world",
         "difficult": 1,
@@ -355,10 +368,16 @@
         }, {
             "userAnswer": "Festa della donna",
             "tip": "Cosa si regala alle donne in questa giornata?"
+        }, {
+            "userAnswer": "Festa delle donne",
+            "tip": "Cosa si regala alle donne in questa giornata?"
+        }, {
+            "userAnswer": "Beyoncé",
+            "tip": "Si, quello è il testo della canzone che Beyoncé ha dedicato alle donne, quindi la pianta potrebbe essere una..."
         }]
     },
     {
-        "id": 18,
+        "id": 19,
         "image": "assets/images/spotify.png",
         "suggestion": "Tutti lo crackano",
         "difficult": 1,
@@ -377,9 +396,9 @@
         }]
     },
     {
-        "id": 19,
+        "id": 20,
         "image": "assets/images/xor.png",
-        "suggestion": "10",
+        "suggestion": "1     0",
         "difficult": 1,
         "correctAnswer": ["1"],
         "backgroundColor": "ECB8DE",
@@ -402,7 +421,7 @@
         }]
     },
     {
-        "id": 20,
+        "id": 21,
         "image": "assets/images/davidmichelangelo.png",
         "suggestion": "Uno scultore",
         "difficult": 1,
@@ -428,7 +447,7 @@
         ]
     },
     {
-        "id": 21,
+        "id": 22,
         "image": "assets/images/sternocleidomastoideo.png",
         "suggestion": "Un muscolo",
         "difficult": 1,
@@ -446,7 +465,7 @@
         ]
     },
     {
-        "id": 22,
+        "id": 23,
         "image": "assets/images/jackolantern.png",
         "suggestion": "Una zucca",
         "difficult": 1,
@@ -467,9 +486,9 @@
         ]
     },
     {
-        "id": 23,
+        "id": 24,
         "image": "assets/images/moai.png",
-        "suggestion": "Gli abitanti degli antipodi",
+        "suggestion": "Abitano gli antipodi",
         "difficult": 1,
         "correctAnswer": ["Moai"],
         "backgroundColor": "DEEA88",
@@ -485,7 +504,7 @@
         ]
     },
     {
-        "id": 24,
+        "id": 25,
         "image": "assets/images/wechat.png",
         "suggestion": "Whatsapp cinese",
         "difficult": 1,
@@ -507,7 +526,7 @@
         }]
     },
     {
-        "id": 25,
+        "id": 26,
         "image": "assets/images/otamatone.png",
         "suggestion": "Uno strumento musicale",
         "difficult": 1,
@@ -526,11 +545,11 @@
         }]
     },
     {
-        "id": 26,
+        "id": 27,
         "image": "assets/images/songoku.png",
         "suggestion": "Il protagonista",
         "difficult": 1,
-        "correctAnswer": ["Son Goku", "Goku Son"],
+        "correctAnswer": ["Son Goku", "Goku Son", "kakaroth", "Kakarot", "Kakarotto", "Kaarot", "Kag8", "Kagotto"],
         "backgroundColor": "C5C8C9",
         "congratulations": "Lo hai cercato su internet o sei una persona formale che chiama tutti per nome e cognome? Bravo comunque",
         "wrongAnswer": [{
@@ -545,7 +564,7 @@
         }]
     },
     {
-        "id": 27,
+        "id": 28,
         "image": "assets/images/trenitalia.png",
         "suggestion": "In ritardo",
         "difficult": 1,
@@ -566,26 +585,26 @@
         ]
     },
     {
-        "id": 28,
+        "id": 29,
         "image": "assets/images/spaggiari.png",
         "suggestion": "Un registro",
         "difficult": 1,
         "correctAnswer": ["Spaggiari"],
         "backgroundColor": "FFFFFF",
-        "congratulations": "Se hai avuto difficoltà ad indovinare vuol dire che la tua scuola è del neolitico e utilizzate ancora il registro di carta oppure che usate uno di quei registri di sottomarca tipo Argo.",
+        "congratulations": "Se hai avuto difficoltà ad indovinare vuol dire che la tua scuola è del neolitico e utilizzate ancora il registro di carta oppure usate uno di quei registri di sottomarca tipo Argo.",
         "wrongAnswer": [{
             "userAnswer": "Mare",
             "tip": "Beh lì ci andiamo d’estate. Mi dispiace ma non è questa la risposta"
         }, {
             "userAnswer": "Spiaggia",
-            "tip": "Questo gioco non è così semplice da chiederti scrivere solo ciò che vedi, pensa un po’ alla fonetica"
+            "tip": "Questo gioco non è così semplice da chiederti di scrivere solo ciò che vedi, pensa un po’ alla fonetica"
         }, {
             "userAnswer": "Sabbia",
             "tip": "La sabbia è tutta tua quando prendi un brutto voto"
         }]
     },
     {
-        "id": 29,
+        "id": 30,
         "image": "assets/images/meinkampf.png",
         "suggestion": "Un libro",
         "difficult": 1,
@@ -604,26 +623,35 @@
         }]
     },
     {
-        "id": 30,
+        "id": 31,
         "image": "assets/images/fibonacci.png",
-        "suggestion": "Serie…",
+        "suggestion": "Successione...",
         "difficult": 1,
         "correctAnswer": ["Successione Aurea"],
         "backgroundColor": "004DA6",
         "congratulations": "Non vorrei mai essere l’addetto alle pulizie dal laboratorio di Fibonacci",
         "wrongAnswer": [{
-            "userAnswer": "Fibonacci",
-            "tip": "Si lui l’ha inventata"
-        }, {
-            "userAnswer": "Serie di Fibonacci",
-            "tip": "Vorrei l’altro nome"
-        }, {
-            "userAnswer": "Playboy",
-            "tip": "Non è che dovunque ci sia un coniglio allora sia Playboy..."
-        }]
+                "userAnswer": "Fibonacci",
+                "tip": "Si lui l’ha inventata"
+            }, {
+                "userAnswer": "Serie di Fibonacci",
+                "tip": "Vorrei l’altro nome"
+            }, {
+                "userAnswer": "Playboy",
+                "tip": "Non è che dovunque ci sia un coniglio allora sia Playboy..."
+            },
+            {
+                "userAnswer": "Conigli",
+                "tip": "INCREDIBILEEEEEE *POPI POPI* , è arrivato il pagliaccio. Non è questione di che animali sono, ma di come si..."
+            },
+            {
+                "userAnswer": "Aurea",
+                "tip": "Esatto, la [...] aurea"
+            }
+        ]
     },
     {
-        "id": 31,
+        "id": 32,
         "image": "assets/images/cicuta.png",
         "suggestion": "Una pianta",
         "difficult": 2,
@@ -639,7 +667,7 @@
         }]
     },
     {
-        "id": 32,
+        "id": 33,
         "image": "assets/images/restigeelite72.png",
         "suggestion": "Il sogno di Lo Rito",
         "difficult": 2,
@@ -658,7 +686,7 @@
         }]
     },
     {
-        "id": 33,
+        "id": 34,
         "image": "assets/images/mandala.png",
         "suggestion": "Vai Flaviè...",
         "difficult": 2,
@@ -674,7 +702,7 @@
         }]
     },
     {
-        "id": 34,
+        "id": 35,
         "image": "assets/images/differenziale.png",
         "suggestion": "Per i piloti",
         "difficult": 2,
@@ -696,7 +724,7 @@
         }]
     },
     {
-        "id": 35,
+        "id": 36,
         "image": "assets/images/guardiasvizzera.png",
         "suggestion": "Una divisa",
         "difficult": 2,
@@ -715,7 +743,7 @@
         }]
     },
     {
-        "id": 36,
+        "id": 37,
         "image": "assets/images/gianobifronte.png",
         "suggestion": "Una statua",
         "difficult": 2,
@@ -739,7 +767,7 @@
             "tip": "Vorrei il nome dell’erma bifronte più famosa"
         }]
     }, {
-        "id": 37,
+        "id": 38,
         "image": "assets/images/marienplatz.png",
         "suggestion": "Un luogo",
         "difficult": 2,
@@ -757,7 +785,7 @@
             "tip": "Si quella è la città, ma il posto?"
         }]
     }, {
-        "id": 38,
+        "id": 39,
         "image": "assets/images/sunwukong.png",
         "suggestion": "Una scimmia",
         "difficult": 2,
@@ -775,7 +803,7 @@
             "tip": "Lo è, ma come si chiama?"
         }]
     }, {
-        "id": 39,
+        "id": 40,
         "image": "assets/images/marinetti.png",
         "suggestion": "Un manifesto",
         "difficult": 2,
@@ -793,7 +821,7 @@
             "tip": "Beh non esattamente… ti dico solo che è stato scritto da un italiano"
         }]
     }, {
-        "id": 40,
+        "id": 41,
         "image": "assets/images/yellowstone.png",
         "suggestion": "Un'acqua acida",
         "difficult": 2,

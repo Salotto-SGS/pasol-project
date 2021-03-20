@@ -27,7 +27,6 @@ class _LevelPageState extends State<LevelPage> {
 
   @override
   void initState() {
-    // print(this.widget._id);
     getJson();
     super.initState();
   }
@@ -38,7 +37,8 @@ class _LevelPageState extends State<LevelPage> {
 
   void getResponse(TextEditingController text) {
     for (var i = 0; i < level.correctAnswer.length; i++) {
-      if (text.text.toLowerCase() == level.correctAnswer[i].toLowerCase()) {
+      if (text.text.toLowerCase().trim() ==
+          level.correctAnswer[i].toLowerCase()) {
         _modalTitle = "Risposta corretta";
         _modalBody = level.congratulations;
         _responseIcon = Icon(Icons.check_rounded);
@@ -50,7 +50,7 @@ class _LevelPageState extends State<LevelPage> {
     _responseIcon = Icon(Icons.clear_rounded);
     for (var i = 0; i < level.wrongAnswer.length; i++) {
       if (level.wrongAnswer[i].userAnswer.toLowerCase() ==
-          text.text.toLowerCase()) {
+          text.text.toLowerCase().trim()) {
         _modalTitle = "Risposta errata";
         _modalBody = level.wrongAnswer[i].tip;
         showModal();
@@ -162,14 +162,20 @@ class _LevelPageState extends State<LevelPage> {
                   ),
                   Align(
                     alignment: Alignment.center,
-                    child: Text(
-                      title,
-                      style: TextStyle(
-                        fontSize: 40,
-                        fontFamily: 'IndieFlower',
+                    child: Container(
+                      margin: EdgeInsets.only(left: 50.0, right: 10.0),
+                      child: FittedBox(
+                        fit: BoxFit.fitWidth,
+                        child: Text(
+                          title,
+                          style: TextStyle(
+                            fontSize: 40,
+                            fontFamily: 'IndieFlower',
+                          ),
+                        ),
                       ),
                     ),
-                  )
+                  ),
                 ],
               ),
             ),
