@@ -1,4 +1,4 @@
-<?xml version="1.0" encoding="UTF-8"?><project name="Progetto Salotto" company="Salotto Inc." webLink="http://" view-date="2021-02-28" view-index="0" gantt-divider-location="432" resource-divider-location="300" version="3.0.3002" locale="it_IT">
+<?xml version="1.0" encoding="UTF-8"?><project name="Progetto Salotto" company="Salotto Inc." webLink="http://" view-date="2021-03-07" view-index="0" gantt-divider-location="432" resource-divider-location="300" version="3.0.3000" locale="it_IT">
     <description/>
     <view zooming-state="default:2" id="gantt-chart">
         <field id="tpd3" name="Nome" width="282" order="0"/>
