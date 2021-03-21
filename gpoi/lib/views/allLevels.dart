@@ -96,16 +96,16 @@ class _AllLevelsPageState extends State<AllLevelsPage> {
                                   ],
                                 ),
                                 onTap: () {
-                                  // if (levels[index * 4].id <=
-                                  //     _lastLevelNumber) {
-                                  Navigator.push(
-                                    context,
-                                    MaterialPageRoute(
-                                      builder: (context) =>
-                                          LevelPage(levels[index * 4].id),
-                                    ),
-                                  );
-                                  // }
+                                  if (levels[index * 4].id <=
+                                      _lastLevelNumber) {
+                                    Navigator.push(
+                                      context,
+                                      MaterialPageRoute(
+                                        builder: (context) =>
+                                            LevelPage(levels[index * 4].id),
+                                      ),
+                                    );
+                                  }
                                 },
                               )
                             : Container(
@@ -133,16 +133,16 @@ class _AllLevelsPageState extends State<AllLevelsPage> {
                                   ],
                                 ),
                                 onTap: () {
-                                  // if (levels[index * 4 + 1].id <=
-                                  //     _lastLevelNumber) {
-                                  Navigator.push(
-                                    context,
-                                    MaterialPageRoute(
-                                      builder: (context) =>
-                                          LevelPage(levels[index * 4 + 1].id),
-                                    ),
-                                  );
-                                  // }
+                                  if (levels[index * 4 + 1].id <=
+                                      _lastLevelNumber) {
+                                    Navigator.push(
+                                      context,
+                                      MaterialPageRoute(
+                                        builder: (context) =>
+                                            LevelPage(levels[index * 4 + 1].id),
+                                      ),
+                                    );
+                                  }
                                 },
                               )
                             : Container(
@@ -170,16 +170,16 @@ class _AllLevelsPageState extends State<AllLevelsPage> {
                                   ],
                                 ),
                                 onTap: () {
-                                  // if (levels[index * 4 + 2].id <=
-                                  //     _lastLevelNumber) {
-                                  Navigator.push(
-                                    context,
-                                    MaterialPageRoute(
-                                      builder: (context) =>
-                                          LevelPage(levels[index * 4 + 2].id),
-                                    ),
-                                  );
-                                  // }
+                                  if (levels[index * 4 + 2].id <=
+                                      _lastLevelNumber) {
+                                    Navigator.push(
+                                      context,
+                                      MaterialPageRoute(
+                                        builder: (context) =>
+                                            LevelPage(levels[index * 4 + 2].id),
+                                      ),
+                                    );
+                                  }
                                 },
                               )
                             : Container(
@@ -207,16 +207,16 @@ class _AllLevelsPageState extends State<AllLevelsPage> {
                                   ],
                                 ),
                                 onTap: () {
-                                  // if (levels[index * 4 + 3].id <=
-                                  //     _lastLevelNumber) {
-                                  Navigator.push(
-                                    context,
-                                    MaterialPageRoute(
-                                      builder: (context) =>
-                                          LevelPage(levels[index * 4 + 3].id),
-                                    ),
-                                  );
-                                  // }
+                                  if (levels[index * 4 + 3].id <=
+                                      _lastLevelNumber) {
+                                    Navigator.push(
+                                      context,
+                                      MaterialPageRoute(
+                                        builder: (context) =>
+                                            LevelPage(levels[index * 4 + 3].id),
+                                      ),
+                                    );
+                                  }
                                 },
                               )
                             : Container(
