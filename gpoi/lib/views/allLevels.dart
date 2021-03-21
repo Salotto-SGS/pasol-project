@@ -66,7 +66,7 @@ class _AllLevelsPageState extends State<AllLevelsPage> {
           crossAxisAlignment: CrossAxisAlignment.center,
           children: <Widget>[
             Container(
-              height: 780,
+              height: height * 0.9,
               child: ListView.builder(
                 itemCount: (levels.length / 4).ceil(),
                 itemBuilder: (context, index) {

@@ -1,10 +1,10 @@
 import 'dart:convert';
-
-import 'package:flutter/foundation.dart';
 import 'package:flutter/material.dart';
 import 'package:flutter/services.dart';
 import 'package:gpoi/classes/Level.dart';
 import 'package:shared_preferences/shared_preferences.dart';
+
+import '../painter/Painter.dart';
 
 class LevelPage extends StatefulWidget {
   int _id;
@@ -141,6 +141,7 @@ class _LevelPageState extends State<LevelPage> {
   @override
   Widget build(BuildContext context) {
     return Scaffold(
+      //resizeToAvoidBottomInset: false,
       backgroundColor: backgroundColor,
       body: SafeArea(
         child: Column(
@@ -190,10 +191,7 @@ class _LevelPageState extends State<LevelPage> {
               child: Stack(
                 alignment: Alignment.center,
                 children: [
-                  Align(
-                    alignment: Alignment.bottomCenter,
-                    child: Image.asset('assets/images/ellipse.png'),
-                  ),
+                  InputFormBackground(),
                   Container(
                     margin: EdgeInsets.only(bottom: 60),
                     child: IconButton(
@@ -210,6 +208,10 @@ class _LevelPageState extends State<LevelPage> {
                       child: Container(
                         width: 250,
                         child: TextField(
+                          textInputAction: TextInputAction.go,
+                          onSubmitted: (value) {
+                            getResponse(_responseController);
+                          },
                           controller: _responseController,
                           style: TextStyle(
                             color: Colors.white,
@@ -248,6 +250,20 @@ class _LevelPageState extends State<LevelPage> {
               ),
             ),
           ],
+        ),
+      ),
+    );
+  }
+}
+
+class InputFormBackground extends StatelessWidget {
+  @override
+  Widget build(BuildContext context) {
+    return MaterialApp(
+      debugShowCheckedModeBanner: false,
+      home: Container(
+        child: CustomPaint(
+          painter: CurvePainter(),
         ),
       ),
     );
