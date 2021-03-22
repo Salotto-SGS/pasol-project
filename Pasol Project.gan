@@ -1,4 +1,4 @@
-<?xml version="1.0" encoding="UTF-8"?><project name="Progetto Salotto" company="Salotto Inc." webLink="http://" view-date="2021-03-07" view-index="0" gantt-divider-location="432" resource-divider-location="300" version="3.0.3000" locale="it_IT">
+<?xml version="1.0" encoding="UTF-8"?><project name="Progetto Salotto" company="Salotto Inc." webLink="http://" view-date="2021-02-28" view-index="0" gantt-divider-location="432" resource-divider-location="300" version="3.0.3000" locale="it_IT">
     <description/>
     <view zooming-state="default:2" id="gantt-chart">
         <field id="tpd3" name="Nome" width="282" order="0"/>
@@ -101,7 +101,7 @@
             <task id="253" name="Merging Front-End &amp; Back-End" color="#66ffff" meeting="false" start="2021-03-20" duration="1" complete="0" thirdDate="2021-03-14" thirdDate-constraint="0" expand="true">
                 <depend id="274" type="2" difference="0" hardness="Strong"/>
             </task>
-            <task id="274" name="Alpha Testing &amp; bug solving" color="#66ffff" meeting="false" start="2021-03-21" duration="1" complete="0" thirdDate="2021-03-18" thirdDate-constraint="0" expand="true"/>
+            <task id="274" name="Alpha Testing &amp; Bug Solving" color="#66ffff" meeting="false" start="2021-03-21" duration="1" complete="0" thirdDate="2021-03-18" thirdDate-constraint="0" expand="true"/>
         </task>
         <task id="247" name="Report realizzazione" color="#009900" meeting="false" start="2021-03-22" duration="1" complete="0" thirdDate="2021-02-25" thirdDate-constraint="0" expand="true">
             <depend id="154" type="2" difference="0" hardness="Strong"/>

@@ -41,31 +41,13 @@ class _MyHomePageState extends State<MyHomePage> {
           mainAxisAlignment: MainAxisAlignment.center,
           crossAxisAlignment: CrossAxisAlignment.center,
           children: <Widget>[
-            Row(
-              mainAxisAlignment: MainAxisAlignment.center,
-              children: [
-                Text(
-                  "I",
-                  style: TextStyle(
-                    color: Colors.black,
-                    fontSize: 60,
-                    fontFamily: 'NotoSerif',
-                  ),
-                ),
-                Container(
-                  height: 60,
-                  width: 50,
-                  child: new Image.asset("assets/images/divano.png"),
-                ),
-                Text(
-                  "AGZLE",
-                  style: TextStyle(
-                    color: Colors.black,
-                    fontSize: 60,
-                    fontFamily: 'NotoSerif',
-                  ),
-                ),
-              ],
+            Text(
+              "PASOL",
+              style: TextStyle(
+                color: Colors.black,
+                fontSize: 60,
+                fontFamily: 'NotoSerif',
+              ),
             ),
             Container(
               height: 400,
